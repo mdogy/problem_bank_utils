@@ -11,14 +11,13 @@ import tempfile
 import os
 import subprocess
 import shutil
+from json_utils import read_json_file
+from latex_utils import escape_latex, generate_latex_document, write_latex_file
 
 # Add src directory to path so we can import modules
 src_path = Path(__file__).parent.parent / "src"
 if str(src_path) not in sys.path:
     sys.path.insert(0, str(src_path))
-
-from json_utils import read_json_file
-from latex_utils import escape_latex, generate_latex_document, write_latex_file
 
 
 class TestAcceptanceFullBank(unittest.TestCase):
@@ -94,7 +93,7 @@ class TestAcceptanceFullBank(unittest.TestCase):
                     found_unicode.append(f"Unicode {ord(char):04X} ({repr(char)}) still present in output")
             
             self.assertEqual(len(found_unicode), 0,
-                          f"Found unescaped Unicode characters:\n" + "\n".join(found_unicode))
+                          "Found unescaped Unicode characters:\n" + "\n".join(found_unicode))
             
             # Verify LaTeX structure is valid
             self.assertIn(r'\documentclass{article}', latex_content)
@@ -185,7 +184,7 @@ class TestAcceptanceFullBank(unittest.TestCase):
                 found_superscripts.append(f"Unicode subscript {codepoint:04X} ({repr(char)}) found")
         
         self.assertEqual(len(found_superscripts), 0,
-                        f"Found Unicode superscripts/subscripts in output:\n" + "\n".join(found_superscripts[:20]))
+                        "Found Unicode superscripts/subscripts in output:\n" + "\n".join(found_superscripts[:20]))
 
     def test_full_bank_pdflatex_compilation(self):
         """Test that the generated LaTeX file can be compiled with pdflatex via subprocess."""
@@ -255,7 +254,7 @@ class TestAcceptanceFullBank(unittest.TestCase):
                                 codes = re.findall(r'U\+([0-9A-F]+)', error, re.IGNORECASE)
                                 char_codes.extend(codes)
                         
-                        error_msg = (f"pdflatex compilation failed with Unicode errors:\n" + 
+                        error_msg = ("pdflatex compilation failed with Unicode errors:\n" + 
                                     "\n".join(unicode_errors[:15]) +
                                     (f"\n\nFound Unicode character codes: {', '.join(sorted(set(char_codes)))}" if char_codes else "") +
                                     f"\n\nReturn code: {result2.returncode}")
@@ -266,7 +265,7 @@ class TestAcceptanceFullBank(unittest.TestCase):
                                      if '!' in line[:5] or 'Error' in line or 'Fatal' in line]
                         self.fail(f"pdflatex compilation failed (return code: {result2.returncode}) but no Unicode errors detected:\n" +
                                 "\n".join(error_lines[:25]) +
-                                f"\n\nFull stdout (last 50 lines):\n" +
+                                "\n\nFull stdout (last 50 lines):\n" +
                                 "\n".join(combined_stdout.split('\n')[-50:]))
                 
                 # Check if PDF was created
@@ -348,7 +347,7 @@ class TestAcceptanceFullBank(unittest.TestCase):
             combined_output = result.stdout + result.stderr
             latex_errors = [line for line in combined_output.splitlines() if "!" in line.strip() or "error" in line.lower()]
             self.assertEqual(len(latex_errors), 0,
-                             f"LaTeX compilation errors detected in script output:\n" + "\n".join(latex_errors[:10]))
+                             "LaTeX compilation errors detected in script output:\n" + "\n".join(latex_errors[:10]))
 
 
 if __name__ == '__main__':

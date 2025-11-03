@@ -4,7 +4,6 @@ Utility functions for JSON file operations.
 
 import json
 import re
-import logging
 
 
 def read_json_file(filepath, logger=None):
@@ -30,7 +29,7 @@ def read_json_file(filepath, logger=None):
         if logger:
             logger.error(error_msg)
         raise
-    except json.JSONDecodeError as e:
+    except json.JSONDecodeError:
         error_msg = f"Invalid JSON in input file: {filepath}"
         if logger:
             logger.error(error_msg)

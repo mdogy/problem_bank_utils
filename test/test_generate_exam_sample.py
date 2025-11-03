@@ -4,13 +4,12 @@ Unit tests for LaTeX generation functionality.
 import sys
 import unittest
 from pathlib import Path
+from latex_utils import escape_latex, generate_question_latex
 
 # Add src directory to path so we can import modules
 src_path = Path(__file__).parent.parent / "src"
 if str(src_path) not in sys.path:
     sys.path.insert(0, str(src_path))
-
-from latex_utils import escape_latex, generate_question_latex
 
 
 class TestLatexGeneration(unittest.TestCase):
@@ -134,7 +133,7 @@ class TestLatexGeneration(unittest.TestCase):
             "options": [
                 {
                     "optionId": "M03-Q10-O1",
-                    "text": f"Dropping the intercept and using k\u22121 dummies and one interaction",
+                    "text": "Dropping the intercept and using k\u22121 dummies and one interaction",
                     "isCorrect": True
                 }
             ],
@@ -198,8 +197,8 @@ class TestLatexGeneration(unittest.TestCase):
         # Common Greek letters that appear in math
         sigma = "\u03C3"  # σ (lowercase sigma)
         mu = "\u03BC"  # μ (lowercase mu)
-        result_sigma = escape_latex(f"σ(z)=e^z")
-        result_mu = escape_latex(f"mean μ and std σ")
+        result_sigma = escape_latex("σ(z)=e^z")
+        result_mu = escape_latex("mean μ and std σ")
         
         # Should not contain raw Greek letters
         self.assertNotIn(sigma, result_sigma)
@@ -241,7 +240,7 @@ class TestLatexGeneration(unittest.TestCase):
             "options": [
                 {
                     "optionId": "M04-Q20-O1",
-                    "text": f"Calibration \u2194 Adjusted R\u00B2",
+                    "text": "Calibration \u2194 Adjusted R\u00B2",
                     "isCorrect": True
                 }
             ],

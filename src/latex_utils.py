@@ -248,7 +248,6 @@ def escape_latex(text):
     # FIRST: Protect math mode expressions by replacing them with placeholders
     # This must happen BEFORE backslash escaping to preserve LaTeX commands
     math_replacements = []
-    import re
     
     def protect_math(match):
         math_expr = match.group(0)

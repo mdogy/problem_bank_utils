@@ -34,7 +34,21 @@ problem_bank_utils/
 
 ## Usage
 
-### Generating LaTeX Documents from Question Banks
+### Generating Exam Documents from Question Banks
+
+The `generate_exam_sample.py` script generates documents from JSON question banks in either LaTeX or Markdown format.
+
+#### Generating Markdown Documents
+
+To generate a Markdown file, use the `--format markdown` flag.
+
+```bash
+python src/generate_exam_sample.py data/selected.json selected.md --format markdown
+```
+
+This will produce a numbered list of questions and answers in a format suitable for easy reading or conversion to other formats.
+
+#### Generating LaTeX Documents
 
 The `generate_exam_sample.py` script generates LaTeX files from JSON question banks.
 
@@ -61,10 +75,11 @@ python src/generate_exam_sample.py data/midterm_question_bank.json output.tex --
 #### Command-Line Options
 
 - `input_file`: Path to the input JSON file containing questions (required)
-- `output_file`: Path to the output LaTeX file (required)
-- `--limit N`: Number of questions to include (default: 10). Use `0` to include all questions
-- `--loglevel LEVEL`: Logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL). Default: INFO
-- `--pdf`: Automatically compile the LaTeX file to PDF using pdflatex (requires pdflatex to be installed)
+- `output_file`: Path to the output file (required)
+- `--format [latex|markdown]`: The output format for the generated file. Defaults to `latex`.
+- `--limit N`: Number of questions to include (default: 10). Use `0` to include all questions.
+- `--loglevel LEVEL`: Logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL). Default: INFO.
+- `--pdf`: Automatically compile the LaTeX file to PDF using pdflatex. Only applicable when `--format` is `latex`.
 
 #### Compiling LaTeX to PDF
 

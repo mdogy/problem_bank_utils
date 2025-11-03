@@ -19,6 +19,7 @@ from pathlib import Path
 
 from json_utils import read_json_file
 from latex_utils import write_latex_file
+from markdown_utils import write_markdown_file
 
 
 def compile_pdf(tex_file, logger=None):
@@ -47,7 +48,7 @@ def compile_pdf(tex_file, logger=None):
     try:
         # Run pdflatex twice (first pass for references, second for final output)
         # Use -interaction=nonstopmode to prevent hanging on errors
-        result1 = subprocess.run(
+        subprocess.run(
             ["pdflatex", "-interaction=nonstopmode", tex_name],
             cwd=work_dir,
             capture_output=True,
@@ -105,6 +106,7 @@ def main():
     parser.add_argument("input_file", help="The input JSON file.")
     parser.add_argument("output_file", help="The output LaTeX file.")
     parser.add_argument("--limit", type=int, default=10, help="The number of questions to include in the sample (default: 10 for approval). Use --limit 0 to include all questions.")
+    parser.add_argument("--format", default="latex", choices=["latex", "markdown"], help="The output format.")
     parser.add_argument("--loglevel", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"], help="The logging level.")
     parser.add_argument("--pdf", action="store_true", help="Compile the LaTeX file to PDF using pdflatex.")
     args = parser.parse_args()
@@ -137,13 +139,19 @@ def main():
     if args.limit and args.limit > 0:
         questions = questions[:args.limit]
 
-    # Generate and write LaTeX file
-    write_latex_file(args.output_file, questions)
-    logger.info(f"Successfully generated {args.output_file} with {len(questions)} questions.")
-    
-    # Compile to PDF if requested
-    if args.pdf:
-        compile_pdf(args.output_file, logger=logger)
+    # Generate and write the output file based on the selected format
+    if args.format == 'latex':
+        write_latex_file(args.output_file, questions)
+        logger.info(f"Successfully generated {args.output_file} with {len(questions)} questions.")
+        
+        # Compile to PDF if requested
+        if args.pdf:
+            compile_pdf(args.output_file, logger=logger)
+    elif args.format == 'markdown':
+        if args.pdf:
+            logger.warning("The --pdf flag is only applicable for the 'latex' format. Ignoring.")
+        write_markdown_file(args.output_file, questions)
+        logger.info(f"Successfully generated {args.output_file} in Markdown format with {len(questions)} questions.")
 
 
 if __name__ == "__main__":
