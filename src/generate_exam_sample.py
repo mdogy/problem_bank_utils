@@ -120,6 +120,19 @@ def main():
         logger.error(str(e))
         sys.exit(1)
 
+    # Handle pandas-style JSON format {col: {idx: val}}
+    if isinstance(questions, dict) and 'questionId' in questions:
+        reformatted_questions = []
+        # Get the indices from one of the columns (e.g., questionId)
+        indices = list(questions['questionId'].keys())
+        for index in indices:
+            question_obj = {}
+            for key, values in questions.items():
+                if index in values:
+                    question_obj[key] = values[index]
+            reformatted_questions.append(question_obj)
+        questions = reformatted_questions
+
     # Limit questions if requested
     if args.limit and args.limit > 0:
         questions = questions[:args.limit]

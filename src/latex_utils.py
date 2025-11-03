@@ -41,6 +41,9 @@ def escape_latex(text):
     if not isinstance(text, str):
         return text
     
+    # Replace newlines with LaTeX \\newline command to prevent paragraph break errors
+    text = text.replace('\n', r'\\newline')
+    
     # Normalize Unicode characters to ASCII-safe equivalents or LaTeX commands
     # U+2212 MINUS SIGN → U+002D HYPHEN-MINUS
     text = text.replace('\u2212', '-')  # MINUS SIGN → HYPHEN-MINUS

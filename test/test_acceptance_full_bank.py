@@ -287,6 +287,69 @@ class TestAcceptanceFullBank(unittest.TestCase):
             finally:
                 os.chdir(original_dir)
 
+    def test_generate_exam_sample_with_pdf_flag(self):
+        """Test that src/generate_exam_sample.py with --pdf flag runs successfully and generates PDF."""
+        if self.questions is None:
+            self.skipTest(self.skip_reason)
+
+        # Check if pdflatex is available, as the script will use it
+        if not shutil.which('pdflatex'):
+            self.skipTest("pdflatex not found - skipping test for --pdf flag")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            output_base_name = "generated_exam"
+            output_tex_path = Path(tmpdir) / f"{output_base_name}.tex"
+            output_pdf_path = Path(tmpdir) / f"{output_base_name}.pdf"
+            output_log_path = Path(tmpdir) / f"{output_base_name}.log"
+            output_aux_path = Path(tmpdir) / f"{output_base_name}.aux"
+
+            # Path to the main script
+            script_path = Path(__file__).parent.parent / "src" / "generate_exam_sample.py"
+            input_file_path = Path(__file__).parent.parent / "data" / "midterm_question_bank.json"
+
+            # Construct the command to run the script with --pdf flag
+            command = [
+                sys.executable, # Use the same python interpreter that is running the tests
+                str(script_path),
+                str(input_file_path), # Add input_file as a positional argument
+                str(output_tex_path), # Add output_file as a positional argument
+                "--pdf"
+            ]
+
+            print(f"Running command: {' '.join(command)}") # For debugging in case of failure
+
+            # Execute the script
+            result = subprocess.run(
+                command,
+                capture_output=True,
+                text=True,
+                timeout=300 # Increased timeout for full generation and compilation
+            )
+
+            # Assert that the script ran successfully
+            self.assertEqual(result.returncode, 0,
+                             f"Script generate_exam_sample.py failed with return code {result.returncode}.\n"
+                             f"Stdout:\n{result.stdout}\nStderr:\n{result.stderr}")
+
+            # Verify that the .tex file was created
+            self.assertTrue(output_tex_path.exists(), f"LaTeX file {output_tex_path} was not created.")
+            self.assertGreater(output_tex_path.stat().st_size, 0, f"LaTeX file {output_tex_path} is empty.")
+
+            # Verify that the .pdf file was created
+            self.assertTrue(output_pdf_path.exists(), f"PDF file {output_pdf_path} was not created.")
+            self.assertGreater(output_pdf_path.stat().st_size, 0, f"PDF file {output_pdf_path} is empty.")
+
+            # Verify that auxiliary files were created (optional but good for completeness)
+            self.assertTrue(output_log_path.exists(), f"Log file {output_log_path} was not created.")
+            self.assertTrue(output_aux_path.exists(), f"Aux file {output_aux_path} was not created.")
+
+            # Check for common LaTeX compilation errors in stdout/stderr
+            # The script itself should ideally catch and report these, but this is a safeguard
+            combined_output = result.stdout + result.stderr
+            latex_errors = [line for line in combined_output.splitlines() if "!" in line.strip() or "error" in line.lower()]
+            self.assertEqual(len(latex_errors), 0,
+                             f"LaTeX compilation errors detected in script output:\n" + "\n".join(latex_errors[:10]))
+
 
 if __name__ == '__main__':
     unittest.main()

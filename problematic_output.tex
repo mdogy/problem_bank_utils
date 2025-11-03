@@ -2070,7 +2070,11 @@
 **Blooms:** & N/A \\ \hline
 \end{tabular}
 
-\subsection*{What does the following Pandas code return?\textbackslash{}\textbackslash{}newline\textbackslash{}\textbackslash{}newline```python\textbackslash{}\textbackslash{}newlinedf.groupby('category')['price'].agg(['mean', 'count']).reset\_index()\textbackslash{}\textbackslash{}newline```}
+\subsection*{What does the following Pandas code return?
+
+```python
+df.groupby('category')['price'].agg(['mean', 'count']).reset\_index()
+```}
 \begin{enumerate}
 \item A DataFrame of unique categories and the sum of prices
 \item \textcolor{green}{A DataFrame summarising the mean and count of prices for each category}
@@ -2102,7 +2106,16 @@
 **Blooms:** & N/A \\ \hline
 \end{tabular}
 
-\subsection*{Consider the following SQL query:\textbackslash{}\textbackslash{}newline\textbackslash{}\textbackslash{}newline```sql\textbackslash{}\textbackslash{}newlineSELECT customers.name, SUM(orders.amount) AS total\textbackslash{}\textbackslash{}newlineFROM customers\textbackslash{}\textbackslash{}newlineLEFT JOIN orders ON customers.id = orders.customer\_id\textbackslash{}\textbackslash{}newlineGROUP BY customers.name;\textbackslash{}\textbackslash{}newline```\textbackslash{}\textbackslash{}newline\textbackslash{}\textbackslash{}newlineWhat will this query return?}
+\subsection*{Consider the following SQL query:
+
+```sql
+SELECT customers.name, SUM(orders.amount) AS total
+FROM customers
+LEFT JOIN orders ON customers.id = orders.customer\_id
+GROUP BY customers.name;
+```
+
+What will this query return?}
 \begin{enumerate}
 \item A table listing each order with the customer's name
 \item \textcolor{green}{The sum of order amounts per customer, including customers with no orders}
