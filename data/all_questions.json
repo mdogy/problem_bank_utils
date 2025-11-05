@@ -1,0 +1,3096 @@
+{
+    "questions": [
+        {
+            "title": "4 vs 4.0",
+            "question_text": "In Python, what is the difference between the number 4 and the number 4.0?\r\n\r\nThey are different",
+            "answers": [
+                {
+                    "text": "types",
+                    "correct": true
+                },
+                {
+                    "text": "code",
+                    "correct": false
+                },
+                {
+                    "text": "variables",
+                    "correct": false
+                },
+                {
+                    "text": "statements",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "A NumPy array cannot have (video: \"#1 Arrays & Data Types\")",
+            "answers": [
+                {
+                    "text": "integer data, it can only hold floats",
+                    "correct": false
+                },
+                {
+                    "text": "float data, it can only hold integers",
+                    "correct": false
+                },
+                {
+                    "text": "multiple different types of data",
+                    "correct": true
+                },
+                {
+                    "text": "float32 data",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "A bootstrap confidence interval will be inaccurate if:",
+            "answers": [
+                {
+                    "text": "The original sample size is too large",
+                    "correct": false
+                },
+                {
+                    "text": "The bootstrap statistic is bimodal",
+                    "correct": false
+                },
+                {
+                    "text": "The confidence level is 99%",
+                    "correct": false
+                },
+                {
+                    "text": "The original sample is not random",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "A primary difference between linear regression and polynomial regression is:",
+            "answers": [
+                {
+                    "text": "Polynomial regression uses transformed versions of the predictors that raise them to integer powers",
+                    "correct": true
+                },
+                {
+                    "text": "Linear regression always has better performance",
+                    "correct": false
+                },
+                {
+                    "text": "Polynomial regression has polynomial number of parameters",
+                    "correct": false
+                },
+                {
+                    "text": "Polynomial regression works better with categorical predictors",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "A random walk, as discussed is a process where we pick a point in a region and",
+            "answers": [
+                {
+                    "text": "then keep choosing other random points in the region",
+                    "correct": false
+                },
+                {
+                    "text": "we pick a number between 0 and 1, and if it is larger than a fixed number p we just pick another point in the region. We do this a number of times.",
+                    "correct": false
+                },
+                {
+                    "text": "we start at some point and we randomly choose a direction and move one unit in that direction. We repeat this process a number of times.",
+                    "correct": true
+                },
+                {
+                    "text": "we then call scipy.random_walk(x,N) where x is the starting point and N is the number of steps we want to go.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "An algorithm is best described as:",
+            "answers": [
+                {
+                    "text": "Software",
+                    "correct": false
+                },
+                {
+                    "text": "Hardware",
+                    "correct": false
+                },
+                {
+                    "text": "Operating system",
+                    "correct": false
+                },
+                {
+                    "text": "Set of steps for solving a problem",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "An algorithm processes each element of an input dataset sequentially. What is its time complexity?",
+            "answers": [
+                {
+                    "text": "O(1)",
+                    "correct": false
+                },
+                {
+                    "text": "O(n)",
+                    "correct": true
+                },
+                {
+                    "text": "O(n log n)",
+                    "correct": false
+                },
+                {
+                    "text": "O(n^2)",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "An important weakness in a p-value is that",
+            "answers": [
+                {
+                    "text": "it is usually very difficult to compute",
+                    "correct": false
+                },
+                {
+                    "text": "it is very easy to fake",
+                    "correct": false
+                },
+                {
+                    "text": "the size of the recommended cut-off is arbitrary (someone could argue it should be smaller or larger)",
+                    "correct": true
+                },
+                {
+                    "text": "p-values cannot be used if the distribution is not \"normal\" (a bell curve)",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "An interesting and surprising result is that Chebychev's Bounds which implies that",
+            "answers": [
+                {
+                    "text": "75% of the data is within 2 standard deviations of the mean even if the data is not normally distributed",
+                    "correct": true
+                },
+                {
+                    "text": "95% of the data is within 2 standard deviations of the mean even if the data is not normally distributed",
+                    "correct": false
+                },
+                {
+                    "text": "95% of the data is within 2 standard deviations of the mean even only if the data is normally distributed",
+                    "correct": false
+                },
+                {
+                    "text": "we can define outliers as being more than 6 standard deviations away from the mean",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "Combining values",
+            "question_text": "What is the term for things like +, -, *, and / ?",
+            "answers": [
+                {
+                    "text": "operators",
+                    "correct": true
+                },
+                {
+                    "text": "variables",
+                    "correct": false
+                },
+                {
+                    "text": "types",
+                    "correct": false
+                },
+                {
+                    "text": "statements",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "Grace Hopper's compiler",
+            "answers": [
+                {
+                    "text": "compiled data for further analysis",
+                    "correct": false
+                },
+                {
+                    "text": "transformed high-level code to machine code",
+                    "correct": true
+                },
+                {
+                    "text": "grouped opcodes together for speed",
+                    "correct": false
+                },
+                {
+                    "text": "compiled errors for debugging",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "How can you read the contents of a text file into a string variable in Python assuming file was created with an \"open\" statement?",
+            "answers": [
+                {
+                    "text": "contents = file.read()",
+                    "correct": true
+                },
+                {
+                    "text": "contents = read(file)",
+                    "correct": false
+                },
+                {
+                    "text": "contents = file.contents()",
+                    "correct": false
+                },
+                {
+                    "text": "contents = file.getText()",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "How does Python handle execution of recursive calls?",
+            "answers": [
+                {
+                    "text": "Recursive calls are evaluated first",
+                    "correct": false
+                },
+                {
+                    "text": "Caller waits for recursive call to finish",
+                    "correct": true
+                },
+                {
+                    "text": "All recursive calls happen in parallel",
+                    "correct": false
+                },
+                {
+                    "text": "Order of execution cannot be determined",
+                    "correct": false
+                },
+                {
+                    "text": "Recursive call launches separate process",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "How does kNN classification work?",
+            "answers": [
+                {
+                    "text": "By grouping training observations into clusters and assigning the cluster label",
+                    "correct": false
+                },
+                {
+                    "text": "By drawing a linear decision boundary between classes",
+                    "correct": false
+                },
+                {
+                    "text": "By predicting the probability of each class and selecting the highest",
+                    "correct": false
+                },
+                {
+                    "text": "By finding the closest labeled points and selecting the majority class",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "How is each data point assigned to a cluster in K-means?",
+            "answers": [
+                {
+                    "text": "To the nearest centroid",
+                    "correct": true
+                },
+                {
+                    "text": "Randomly",
+                    "correct": false
+                },
+                {
+                    "text": "In descending order",
+                    "correct": false
+                },
+                {
+                    "text": "By splitting the dataset",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "How is the Silhouette coefficient calculated?",
+            "answers": [
+                {
+                    "text": "By taking the ratio of between-cluster and within-cluster distances",
+                    "correct": false
+                },
+                {
+                    "text": "By taking the difference of within-cluster and between-cluster distances, normalized by the maximum",
+                    "correct": true
+                },
+                {
+                    "text": "As the cluster density multiplied by scatter",
+                    "correct": false
+                },
+                {
+                    "text": "By taking the ratio of densities between clusters",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "If A = {'a', 'b'} and B = {'c', 'd'} then what do we get when we print(A.intersection(B))?",
+            "answers": [
+                {
+                    "text": "set()",
+                    "correct": true
+                },
+                {
+                    "text": "None",
+                    "correct": false
+                },
+                {
+                    "text": "[]",
+                    "correct": false
+                },
+                {
+                    "text": "{'a', 'b', 'c', 'd'}",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "If A is of type numpy.ndarray, and we know that it is a 2D array. Which is the correct way to get the number of rows and columns?",
+            "answers": [
+                {
+                    "text": "A.size",
+                    "correct": false
+                },
+                {
+                    "text": "A.rows, A.cols",
+                    "correct": false
+                },
+                {
+                    "text": "A.shape",
+                    "correct": true
+                },
+                {
+                    "text": "A.shape()",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "If Alice is a class and Bob is a subclass, this means",
+            "answers": [
+                {
+                    "text": "Bob is an Alice",
+                    "correct": true
+                },
+                {
+                    "text": "Alice is a Bob",
+                    "correct": false
+                },
+                {
+                    "text": "Alice has a Bob",
+                    "correct": false
+                },
+                {
+                    "text": "Bob has an Alice",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "If alice is a object and bob is another object and we have alice.x == bob",
+            "answers": [
+                {
+                    "text": "bob is a subobject of alice",
+                    "correct": false
+                },
+                {
+                    "text": "bob is an alice (subclass)",
+                    "correct": false
+                },
+                {
+                    "text": "alice has a bob (composition)",
+                    "correct": true
+                },
+                {
+                    "text": "bob has an alice (composition)",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "If data is a pandas data frame, which of the following is most closely a systematic sampling of the data?",
+            "answers": [
+                {
+                    "text": "data.take(np.arange(np.random.choice(np.arange(10)), data.shape[0], 10))",
+                    "correct": true
+                },
+                {
+                    "text": "data.take(np.arange(int(data.shape[0]/10)))",
+                    "correct": false
+                },
+                {
+                    "text": "data.take(np.random.randint(0, high=data.shape[0], size=int(data.shape[0]/10)))",
+                    "correct": false
+                },
+                {
+                    "text": "data[data.sum(axis=1) &lt; data.sum(axis=1).values.mean()]",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "If we are building a confidence interval for the mean based on sample, then a 95% confidence interval we are trying to find",
+            "answers": [
+                {
+                    "text": "the range of values that with 95% probability contains the population mean",
+                    "correct": true
+                },
+                {
+                    "text": "the range that contains 95% of the data",
+                    "correct": false
+                },
+                {
+                    "text": "the range of values that contain 95% of population values",
+                    "correct": false
+                },
+                {
+                    "text": "the interquartile range of the sample",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "If we have a dictionary `favorite_ices = {'stewart': 'bannana', 'kevin': 'lemon'}' and we execute the code `print(\"popular flavors are {kevin} and {stewart}\".format(**favorite_ices))`, what is the output?",
+            "answers": [
+                {
+                    "text": "popular flavors are lemon and bannana",
+                    "correct": true
+                },
+                {
+                    "text": "popular flavors are bannana and lemon",
+                    "correct": false
+                },
+                {
+                    "text": "popular flavors are {kevin} and {stewart}",
+                    "correct": false
+                },
+                {
+                    "text": "the code does not run because of a syntax error",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "If we imagine theoretically taking multiple samples, the confidence interval should",
+            "answers": [
+                {
+                    "text": "contain 95% of the data sample",
+                    "correct": false
+                },
+                {
+                    "text": "contain the mean of a sample 95% of the time",
+                    "correct": true
+                },
+                {
+                    "text": "best be determined by a t-distribution when there is more data",
+                    "correct": false
+                },
+                {
+                    "text": "have probability 100% when it contains a all points in a sample",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "If we set `sample_string = 'seed sprout seedling sapling tree'` and we want as output the string 'seed-&gt;sprout-&gt;seedling-&gt;sapling-&gt;tree', which code could we use",
+            "answers": [
+                {
+                    "text": "\"-&gt;\".join(sample_string.split(\" \"))",
+                    "correct": true
+                },
+                {
+                    "text": "sample_string.join(\"-&gt;\")",
+                    "correct": false
+                },
+                {
+                    "text": "sample_string.split(\" \").join(\"-&gt;\")",
+                    "correct": false
+                },
+                {
+                    "text": "sample_string.join(\"-&gt;\").split(\" \")",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "If x is a value in a sample A of n-data points and we want to find what percentile x is in, which of the following is the correct formula?",
+            "answers": [
+                {
+                    "text": "100*(x-A.mean())/A.std()",
+                    "correct": false
+                },
+                {
+                    "text": "100*len(A[A",
+                    "correct": true
+                },
+                {
+                    "text": "100*len(A[A&gt;x])/len(A)",
+                    "correct": false
+                },
+                {
+                    "text": "np.percentile(A,66.6)",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Images are stored as:",
+            "answers": [
+                {
+                    "text": "Videos",
+                    "correct": false
+                },
+                {
+                    "text": "Tables",
+                    "correct": false
+                },
+                {
+                    "text": "Multi-dimensional arrays",
+                    "correct": true
+                },
+                {
+                    "text": "Graphs",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "In a pandas series the index is always",
+            "answers": [
+                {
+                    "text": "integers starting at 0 up to one minus the number of rows, indexing the row just like a python list",
+                    "correct": false
+                },
+                {
+                    "text": "a set of labels (could be ints) referencing each row",
+                    "correct": true
+                },
+                {
+                    "text": "a set of column names",
+                    "correct": false
+                },
+                {
+                    "text": "the integer starting at 0 up to one minus the number of columns indexing the column",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "In math, we can do set operations like union and intersection. For example, if A and B are sets, python allows us to say A.union(B) or A.intersection(B). We also have operators for these operations. Which of the following is **not** a valid operation for sets A and B?:",
+            "answers": [
+                {
+                    "text": "A | B",
+                    "correct": false
+                },
+                {
+                    "text": "A + B",
+                    "correct": true
+                },
+                {
+                    "text": "A &amp; B",
+                    "correct": false
+                },
+                {
+                    "text": "A - B",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "In simple one variable linear regression, how many coefficients need to be estimated?",
+            "answers": [
+                {
+                    "text": "0",
+                    "correct": false
+                },
+                {
+                    "text": "2",
+                    "correct": true
+                },
+                {
+                    "text": "As many as there are data points",
+                    "correct": false
+                },
+                {
+                    "text": "It depends on the number of features",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "In the Monty Hall problem we have three doors. Behind one door is a car, and behind the other two doors are junks, eg. a goat and a pile of junk. The contestant chooses a door, let's say door 1. The host, who knows what is behind the doors, opens one of the other doors, let's say door 3, which has a goat behind it. The host then gives the contestant the option to stick with their original choice or switch to the last unopened door, let's say door 2. If the contestant sticks with their original choice the probability of getting the car",
+            "answers": [
+                {
+                    "text": "is 1/2 because it is either behind door 1 or door 2.",
+                    "correct": false
+                },
+                {
+                    "text": "is 2/3 because the probability of their picked door has changed from 1/3 to 2/3.",
+                    "correct": false
+                },
+                {
+                    "text": "is 1/3 since there were three doors and one was chosen.",
+                    "correct": true
+                },
+                {
+                    "text": "can only be computed with a computer simulation",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "In the expression `y = math.sin(x)`,",
+            "answers": [
+                {
+                    "text": "`x` is called the function argument, and `y` is the called the function return value",
+                    "correct": true
+                },
+                {
+                    "text": "`y` is called the function argument, and `x` is the called the function return value",
+                    "correct": false
+                },
+                {
+                    "text": "`x` is called the input, and `y` is the called the output",
+                    "correct": false
+                },
+                {
+                    "text": "`y` is called the input, and `x` is the called the output",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "In the following code, what is the value of&nbsp;x&nbsp;after the code is executed?\r\n\r\ndef adder(y):\r\n    x = 12\r\n    return y + x\r\n\r\nx = 14\r\ny = 7\r\nprint(\"return value of the function:\", adder(y))\r\nprint(\"value of x:\", x)\r\n",
+            "answers": [
+                {
+                    "text": "x&nbsp;is 7",
+                    "correct": false
+                },
+                {
+                    "text": "x&nbsp;is 14",
+                    "correct": true
+                },
+                {
+                    "text": "x&nbsp;is 12",
+                    "correct": false
+                },
+                {
+                    "text": "The code will not run",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "In the following code, what value is returned by the function&nbsp;addEm when it is called with three numbers?\r\n\r\ndef addEm(x, y, z): \r\n&nbsp; &nbsp;&nbsp;print(x + y + z)\r\n",
+            "answers": [
+                {
+                    "text": "None",
+                    "correct": true
+                },
+                {
+                    "text": "the value of x+y+z",
+                    "correct": false
+                },
+                {
+                    "text": "the string \u2018x+y+z\u2019",
+                    "correct": false
+                },
+                {
+                    "text": "the code does not run because of a syntax error",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "In the game example virtual Grace Hopper (programming languages video), the goal was to",
+            "answers": [
+                {
+                    "text": "collect coins",
+                    "correct": false
+                },
+                {
+                    "text": "smash bugs",
+                    "correct": true
+                },
+                {
+                    "text": "escape from a maze",
+                    "correct": false
+                },
+                {
+                    "text": "win a car race",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "In the middle ages, there was a high infant mortality rate. While people who made it to 30 were likely to live to 50. Given this, a better measure of the central tendency for life expectancy is the",
+            "answers": [
+                {
+                    "text": "mean",
+                    "correct": false
+                },
+                {
+                    "text": "median",
+                    "correct": true
+                },
+                {
+                    "text": "mode",
+                    "correct": false
+                },
+                {
+                    "text": "the geometric mean",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Increasing the degree of the polynomial in a polynomial regression model can lead to _______.",
+            "answers": [
+                {
+                    "text": "Overfitting",
+                    "correct": true
+                },
+                {
+                    "text": "Underfitting",
+                    "correct": false
+                },
+                {
+                    "text": "Multicollinearity",
+                    "correct": false
+                },
+                {
+                    "text": "High bias",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Let's say that we have a measurement which is a floating point number between 0 and 1. The probability that this measurement is exactly 0.5 is 0 since there are infinitely many possibilities .... so we basically have 1 way it can happen divided by infinite possibilities. In the discussion on probabilities in the supplemental material, we resolve this by",
+            "answers": [
+                {
+                    "text": "adding a positive small number which is our minimal error.",
+                    "correct": false
+                },
+                {
+                    "text": "adding 2 to the numerator.",
+                    "correct": false
+                },
+                {
+                    "text": "just using the Poisson distribution.",
+                    "correct": false
+                },
+                {
+                    "text": "replacing a probability distribution with a continuous probability density with the probability of the area under the curve.",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "Numpy can easily be used (\"Learn NumPy in 5 minutes\") to do operations on",
+            "answers": [
+                {
+                    "text": "maps",
+                    "correct": false
+                },
+                {
+                    "text": "an image",
+                    "correct": true
+                },
+                {
+                    "text": "paragraphs of text",
+                    "correct": false
+                },
+                {
+                    "text": "any database",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "On getting a python syntax error message, (python is picky) which is the **LEAST** likely thing that could be true?",
+            "answers": [
+                {
+                    "text": "the error message reports that the error occurred on a line which is correct",
+                    "correct": false
+                },
+                {
+                    "text": "a parenthesis or quote is missing",
+                    "correct": false
+                },
+                {
+                    "text": "python, jupyter, or the website is broken",
+                    "correct": true
+                },
+                {
+                    "text": "you copy-pasted from a website and there are hidden characters which just will not run",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "One of the main considerations of a sorting algorithm is:",
+            "answers": [
+                {
+                    "text": "Whether it can handle having multiple repeated elements",
+                    "correct": false
+                },
+                {
+                    "text": "Whether it moves from the left to right, or from the middle",
+                    "correct": false
+                },
+                {
+                    "text": "How it compares two elements to each other",
+                    "correct": false
+                },
+                {
+                    "text": "The overall average speed as a function of list size",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "One of the main considerations of a sorting algorithm is:",
+            "answers": [
+                {
+                    "text": "Whether it can handle having multiple repeated elements",
+                    "correct": false
+                },
+                {
+                    "text": "Whether it moves from the left to right, or from the middle",
+                    "correct": false
+                },
+                {
+                    "text": "How it compares two elements to each other",
+                    "correct": false
+                },
+                {
+                    "text": "The overall average speed as a function of list size",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "One thing about pandas is that",
+            "answers": [
+                {
+                    "text": "iloc uses a square bracket but loc uses a round bracket",
+                    "correct": false
+                },
+                {
+                    "text": "loc uses a square bracket but iloc uses a round bracket",
+                    "correct": false
+                },
+                {
+                    "text": "data frame **methods** (functions) are followed by parenthesis while **attributes** of the data frame are not",
+                    "correct": true
+                },
+                {
+                    "text": "Data series and Data frames are the same thing",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "Programming Language",
+            "question_text": "Which of the following is not (yet) the name of a programming language",
+            "answers": [
+                {
+                    "text": "Bunny",
+                    "correct": true
+                },
+                {
+                    "text": "JavaScript",
+                    "correct": false
+                },
+                {
+                    "text": "Python",
+                    "correct": false
+                },
+                {
+                    "text": "C++",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "Put a number in a box",
+            "question_text": "In Python, if I take a name like \"temperature\" and assign a number to it like 20 this way\r\n\r\ntemperature = 20\r\n\r\nWhat do we call \"temperature\" (as a thing in python)",
+            "answers": [
+                {
+                    "text": "a variable",
+                    "correct": true
+                },
+                {
+                    "text": "a type",
+                    "correct": false
+                },
+                {
+                    "text": "an object",
+                    "correct": false
+                },
+                {
+                    "text": "a statement",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "Say something",
+            "question_text": "How do we get Python write a string out to the notebook/screen?",
+            "answers": [
+                {
+                    "text": "print(\"Who parked their car on my sandwich?\")",
+                    "correct": true
+                },
+                {
+                    "text": "write(\"Who parked their car on my sandwich?\")",
+                    "correct": false
+                },
+                {
+                    "text": "output(\"Who parked their car on my sandwich?\")",
+                    "correct": false
+                },
+                {
+                    "text": "\"Who parked their car on my sandwich?\" -&gt; output;",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Suppose a and b are objects of class Foobar. Operator overloading enables",
+            "answers": [
+                {
+                    "text": "conversion of a to b",
+                    "correct": false
+                },
+                {
+                    "text": "printing a and b as strings",
+                    "correct": false
+                },
+                {
+                    "text": "using * to multiply a and b",
+                    "correct": true
+                },
+                {
+                    "text": "subclassing a as b",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "Suppose mat = np.array([10,9,8,7,6,5,4]) and we want print(submat2) to show array([9,8,7])",
+            "answers": [
+                {
+                    "text": "mat[(10 > mat) and (mat > 6)]",
+                    "correct": false
+                },
+                {
+                    "text": "mat[(10 > mat) && (mat > 6)]",
+                    "correct": false
+                },
+                {
+                    "text": "mat[(10 > mat) & (mat > 6)]",
+                    "correct": true
+                },
+                {
+                    "text": "(10 > mat) & (mat > 6)",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "Suppose mat = np.array([10,9,8,7,6,5,4]), submat = mat[-3:], submat[:]=12, what is the value of mat?",
+            "answers": [
+                {
+                    "text": "array([12, 12, 12, 12, 12, 12, 12])",
+                    "correct": false
+                },
+                {
+                    "text": "array([10,  9,  8,  7, 12, 12, 12])",
+                    "correct": true
+                },
+                {
+                    "text": "array([10,  9,  8,  7, 12])",
+                    "correct": false
+                },
+                {
+                    "text": "array([10, 9, 8, 7, 6, 5, 4])",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Suppose we have a string like this `sample_string = \"Two things are infinite: the universe and human stupidity; and I'm not sure about the universe\"` and we want to check if the word universe appears at the end of the string. Which of the following code snippets would do that?",
+            "answers": [
+                {
+                    "text": "`sample_string.endswith(\"universe\")`",
+                    "correct": true
+                },
+                {
+                    "text": "`'universe' in sample_string`",
+                    "correct": false
+                },
+                {
+                    "text": "`endwith(sample_string,\"universe\")`",
+                    "correct": false
+                },
+                {
+                    "text": "`sample_string[-1] == 'universe'`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "Talk to machines",
+            "question_text": "In python, what do we call the word \"Swordfish\"?",
+            "answers": [
+                {
+                    "text": "a string",
+                    "correct": true
+                },
+                {
+                    "text": "text",
+                    "correct": false
+                },
+                {
+                    "text": "char++",
+                    "correct": false
+                },
+                {
+                    "text": "tastey",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "Tensors can be represented in NumPy (Chapter 2) for example three of the following are prime examples whereas one is **not**. Which is the odd one out?",
+            "answers": [
+                {
+                    "text": "a record containing a name, address, and phone number",
+                    "correct": true
+                },
+                {
+                    "text": "a single number",
+                    "correct": false
+                },
+                {
+                    "text": "a three-d vector representing a point in space",
+                    "correct": false
+                },
+                {
+                    "text": "a matrix of numbers",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "The core of the central limit theorem says that",
+            "answers": [
+                {
+                    "text": "if the sample is large enough the data is normally distributed (bell curve)",
+                    "correct": false
+                },
+                {
+                    "text": "that you should always use more than 30 data points in a sample",
+                    "correct": false
+                },
+                {
+                    "text": "That the confidence interval is between one and two standard deviations away from the mean",
+                    "correct": false
+                },
+                {
+                    "text": "that the distribution of the means of multiple samples is normally distributed (bell curve)",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "The function pyplot.plot is primarily used for a",
+            "answers": [
+                {
+                    "text": "making a line plot",
+                    "correct": true
+                },
+                {
+                    "text": "making a scatter plot",
+                    "correct": false
+                },
+                {
+                    "text": "plotting a histogram",
+                    "correct": false
+                },
+                {
+                    "text": "plotting a bar graph",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "The inspiration for using punch cards to store data for a computer came from a machine that used punch cards to control",
+            "answers": [
+                {
+                    "text": "a loom weaving fabric",
+                    "correct": true
+                },
+                {
+                    "text": "music from music box",
+                    "correct": false
+                },
+                {
+                    "text": "Charles Babbage's analytic Engine",
+                    "correct": false
+                },
+                {
+                    "text": "a machine that could print diagrams",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "There is a dictionary animals_legs = {'dog': 4, 'octopus': 8, 'human': 2}. Suppose we know that our code may sometimes try to access keys that do not exist and we don't want to get an error. We want it to print \"None\" instead. Which of the following is the best way to do this?",
+            "answers": [
+                {
+                    "text": "print(animals_legs['spider'])",
+                    "correct": false
+                },
+                {
+                    "text": "print(animals_legs.keys('spider'))",
+                    "correct": false
+                },
+                {
+                    "text": "print(animals_legs.get('spider'))",
+                    "correct": true
+                },
+                {
+                    "text": "print(animals_legs.items('spider'))",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "To get access to a fictional library \"tastyantimatter\" in python you would say",
+            "answers": [
+                {
+                    "text": "include tastyantimatter",
+                    "correct": false
+                },
+                {
+                    "text": "<- tastyantimatter",
+                    "correct": false
+                },
+                {
+                    "text": "import tastyantimatter",
+                    "correct": true
+                },
+                {
+                    "text": "access tastyantimatter",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "We have a numpy array A = np.array([[ 0,  1,  2], [ 3,  4,  5], [ 6,  7,  8], [ 9, 10, 11], [12, 13, 14]]) which of the following would give us the array array([ 6,  7,  8,  9, 10, 11, 12])",
+            "answers": [
+                {
+                    "text": "A[6:12]",
+                    "correct": false
+                },
+                {
+                    "text": "A[2:4,:]",
+                    "correct": false
+                },
+                {
+                    "text": "A[(A > 5) and (A <= 12) ]",
+                    "correct": false
+                },
+                {
+                    "text": "A[(A > 5) & (A <= 12) ]",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "We have a numpy array b = np.array([ 6,  9, 14, 21, 30, 41]) which of the following gives the result True?",
+            "answers": [
+                {
+                    "text": "all((b % 5)  == 0)",
+                    "correct": false
+                },
+                {
+                    "text": "any((b % 5)  == 0)",
+                    "correct": true
+                },
+                {
+                    "text": "any((b % 11)  == 0)",
+                    "correct": false
+                },
+                {
+                    "text": "all((b % 11)  == 0)",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What algorithm adjusts the weights in a neural network?",
+            "answers": [
+                {
+                    "text": "Regression",
+                    "correct": false
+                },
+                {
+                    "text": "Classification",
+                    "correct": false
+                },
+                {
+                    "text": "Backpropagation",
+                    "correct": true
+                },
+                {
+                    "text": "Overfitting",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "What causes overfitting?",
+            "answers": [
+                {
+                    "text": "Having too few features",
+                    "correct": false
+                },
+                {
+                    "text": "Training for too long",
+                    "correct": false
+                },
+                {
+                    "text": "Capturing spurious patterns that don't generalize",
+                    "correct": true
+                },
+                {
+                    "text": "Having imbalanced training data",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What clause allows you to execute code regardless of any exceptions being raised?",
+            "answers": [
+                {
+                    "text": "else",
+                    "correct": false
+                },
+                {
+                    "text": "finally",
+                    "correct": true
+                },
+                {
+                    "text": "except",
+                    "correct": false
+                },
+                {
+                    "text": "try",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What cost function is commonly used for classification problems?",
+            "answers": [
+                {
+                    "text": "Mean squared error",
+                    "correct": false
+                },
+                {
+                    "text": "Cross-entropy",
+                    "correct": true
+                },
+                {
+                    "text": "Mean absolute error",
+                    "correct": false
+                },
+                {
+                    "text": "Logistic loss",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What do we mean by \"statistically significant\"?",
+            "answers": [
+                {
+                    "text": "the null hypothesis is highly unlikely to be true (less than 5% chance)",
+                    "correct": true
+                },
+                {
+                    "text": "the observed value of the statistic is within one standard devation of the simulated mean",
+                    "correct": false
+                },
+                {
+                    "text": "the null hypothesis is highly likely to be true (greater than 95% chance)",
+                    "correct": false
+                },
+                {
+                    "text": "the difference between the null hypothesis mean and the measured mean are within one standard deviation",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What does \"K\" refer to in K-means clustering?",
+            "answers": [
+                {
+                    "text": "The number of clusters",
+                    "correct": true
+                },
+                {
+                    "text": "The number of data points",
+                    "correct": false
+                },
+                {
+                    "text": "The number of features",
+                    "correct": false
+                },
+                {
+                    "text": "The number of iterations",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "What does K stand for in kNN?",
+            "answers": [
+                {
+                    "text": "K closest points",
+                    "correct": true
+                },
+                {
+                    "text": "Kernel number",
+                    "correct": false
+                },
+                {
+                    "text": "K means clusters",
+                    "correct": false
+                },
+                {
+                    "text": "K-weighted predictions",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "What does a digital image consist of?",
+            "answers": [
+                {
+                    "text": "Sentences",
+                    "correct": false
+                },
+                {
+                    "text": "Pages",
+                    "correct": false
+                },
+                {
+                    "text": "Pixels",
+                    "correct": true
+                },
+                {
+                    "text": "Plots",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "What does a pixel contain in an RGB image?",
+            "answers": [
+                {
+                    "text": "Intensity value",
+                    "correct": false
+                },
+                {
+                    "text": "Red, green and blue values",
+                    "correct": true
+                },
+                {
+                    "text": "Hue and saturation",
+                    "correct": false
+                },
+                {
+                    "text": "Timestamp",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What does a recursive call in a function do?",
+            "answers": [
+                {
+                    "text": "Makes a call to itself",
+                    "correct": true
+                },
+                {
+                    "text": "Stores temporary values",
+                    "correct": false
+                },
+                {
+                    "text": "Computes the final answer",
+                    "correct": false
+                },
+                {
+                    "text": "Raises an error",
+                    "correct": false
+                },
+                {
+                    "text": "Prints output",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What does a recursive call return to the caller?",
+            "answers": [
+                {
+                    "text": "Raises an error",
+                    "correct": false
+                },
+                {
+                    "text": "Returns an answer",
+                    "correct": true
+                },
+                {
+                    "text": "Prints output",
+                    "correct": false
+                },
+                {
+                    "text": "Calls other functions",
+                    "correct": false
+                },
+                {
+                    "text": "Iterates through a loop",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "What does image segmentation do?",
+            "answers": [
+                {
+                    "text": "Partitions an image into multiple segments",
+                    "correct": true
+                },
+                {
+                    "text": "Detects edges in an image",
+                    "correct": false
+                },
+                {
+                    "text": "Thresholds an image",
+                    "correct": false
+                },
+                {
+                    "text": "Blurs an image",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What does the \"append()\" method do when used with a list in Python?",
+            "answers": [
+                {
+                    "text": "Adds an element to the end of the list.",
+                    "correct": true
+                },
+                {
+                    "text": "Removes the last element from the list.",
+                    "correct": false
+                },
+                {
+                    "text": "Sorts the list in ascending order.",
+                    "correct": false
+                },
+                {
+                    "text": "Converts the list into a tuple.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What does the __init__() method do?",
+            "answers": [
+                {
+                    "text": "Initializes a new instance of a class",
+                    "correct": true
+                },
+                {
+                    "text": "It defines class attributes",
+                    "correct": false
+                },
+                {
+                    "text": "It starts a process",
+                    "correct": false
+                },
+                {
+                    "text": "Calls the parent constructor",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What exception is raised if you try to open a file that does not exist?",
+            "answers": [
+                {
+                    "text": "SyntaxError",
+                    "correct": false
+                },
+                {
+                    "text": "FileNotFoundError",
+                    "correct": true
+                },
+                {
+                    "text": "FileNotFound",
+                    "correct": false
+                },
+                {
+                    "text": "TypeError",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What is an essential best practice when using color to denote data?",
+            "answers": [
+                {
+                    "text": "never use shades of gray",
+                    "correct": false
+                },
+                {
+                    "text": "don't have your colors jump in steps from one value to another",
+                    "correct": false
+                },
+                {
+                    "text": "always use yellow and red for showing the temperature",
+                    "correct": false
+                },
+                {
+                    "text": "show a colorbar",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "What is another name for sequential search?",
+            "answers": [
+                {
+                    "text": "Sequential search",
+                    "correct": false
+                },
+                {
+                    "text": "Linear search",
+                    "correct": true
+                },
+                {
+                    "text": "Binary search",
+                    "correct": false
+                },
+                {
+                    "text": "Interval search",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What is another name for sequential search?",
+            "answers": [
+                {
+                    "text": "Sequential search",
+                    "correct": false
+                },
+                {
+                    "text": "Linear search",
+                    "correct": true
+                },
+                {
+                    "text": "Binary search",
+                    "correct": false
+                },
+                {
+                    "text": "Interval search",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What is computed at each step of the K-means algorithm?",
+            "answers": [
+                {
+                    "text": "Cluster variance",
+                    "correct": false
+                },
+                {
+                    "text": "Cluster centroids",
+                    "correct": true
+                },
+                {
+                    "text": "Silhouette score",
+                    "correct": false
+                },
+                {
+                    "text": "Eigenvectors",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What is method overriding?",
+            "answers": [
+                {
+                    "text": "Changing a method's signature",
+                    "correct": false
+                },
+                {
+                    "text": "Changing the name of a class",
+                    "correct": false
+                },
+                {
+                    "text": "Providing a specific implementation in a subclass",
+                    "correct": true
+                },
+                {
+                    "text": "Calling the object's parent",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What is one advantage of using a \"with\" statement over standard open()/close() when working with files in Python?",
+            "answers": [
+                {
+                    "text": "The with statement takes less lines of code",
+                    "correct": false
+                },
+                {
+                    "text": "The file will be closed automatically with a with statement",
+                    "correct": true
+                },
+                {
+                    "text": "The with statement provides faster file reads",
+                    "correct": false
+                },
+                {
+                    "text": "There are no advantages to using a with statement",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "What is one limitation of kNN models?",
+            "answers": [
+                {
+                    "text": "Prediction can be slow with large reference sets",
+                    "correct": true
+                },
+                {
+                    "text": "Training the model is computationally intensive",
+                    "correct": false
+                },
+                {
+                    "text": "The algorithm tends to overfit the training data",
+                    "correct": false
+                },
+                {
+                    "text": "Feature selection is difficult",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What is the best way to handle an exception in Python?",
+            "answers": [
+                {
+                    "text": "Print a generic error message",
+                    "correct": false
+                },
+                {
+                    "text": "Use a bare except: statement to catch all exceptions",
+                    "correct": false
+                },
+                {
+                    "text": "Catch specific exception classes like FileNotFoundError",
+                    "correct": true
+                },
+                {
+                    "text": "Pass the exception to the user",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What is the difference between a function and a method in Python?",
+            "answers": [
+                {
+                    "text": "A function is global, a method is local",
+                    "correct": false
+                },
+                {
+                    "text": "A method does not have arguments, a function does",
+                    "correct": false
+                },
+                {
+                    "text": "A method is associated with a class, a function is standalone",
+                    "correct": true
+                },
+                {
+                    "text": "A function returns a value, a method modifies state",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What is the goal of classification models?",
+            "answers": [
+                {
+                    "text": "To compress input data",
+                    "correct": false
+                },
+                {
+                    "text": "To predict a categorical target variable",
+                    "correct": true
+                },
+                {
+                    "text": "To group input data into clusters",
+                    "correct": false
+                },
+                {
+                    "text": "To reduce the dimensionality of input data",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What is the main difference between a class and an object in Python?",
+            "answers": [
+                {
+                    "text": "A class is a blueprint, an object is an instance created from the class",
+                    "correct": true
+                },
+                {
+                    "text": "An object is a blueprint, a class is an instance created from the object",
+                    "correct": false
+                },
+                {
+                    "text": "There is no difference between a class and an object in Python",
+                    "correct": false
+                },
+                {
+                    "text": "A class contains methods, an object contains attributes",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What is the name of the function that maps neural network inputs to outputs?",
+            "answers": [
+                {
+                    "text": "Classifier",
+                    "correct": false
+                },
+                {
+                    "text": "Regressor",
+                    "correct": false
+                },
+                {
+                    "text": "Activation function",
+                    "correct": true
+                },
+                {
+                    "text": "Cost function",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What is the purpose of a class constructor in Python?",
+            "answers": [
+                {
+                    "text": "It creates a new class",
+                    "correct": false
+                },
+                {
+                    "text": "It makes a class inherit from another class",
+                    "correct": false
+                },
+                {
+                    "text": "It initializes new instances of a class",
+                    "correct": true
+                },
+                {
+                    "text": "It registers an object with the Python interpreter",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "What is the purpose of edge detection?",
+            "answers": [
+                {
+                    "text": "Resize images",
+                    "correct": false
+                },
+                {
+                    "text": "Identify sharp discontinuities in an image",
+                    "correct": true
+                },
+                {
+                    "text": "Convert image formats",
+                    "correct": false
+                },
+                {
+                    "text": "Denoise images",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "What is the purpose of image registration?",
+            "answers": [
+                {
+                    "text": "Aligning images taken at different times or from different sensors",
+                    "correct": true
+                },
+                {
+                    "text": "Combining multiple images into a panorama",
+                    "correct": false
+                },
+                {
+                    "text": "Projecting 3D data onto 2D",
+                    "correct": false
+                },
+                {
+                    "text": "Building 3D models from 2D images",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What is the purpose of the __str__() method in a Python class?",
+            "answers": [
+                {
+                    "text": "It saves the state of an object",
+                    "correct": false
+                },
+                {
+                    "text": "It returns a string that defines how an object is printed",
+                    "correct": true
+                },
+                {
+                    "text": "After it is called, the object becomes a string",
+                    "correct": false
+                },
+                {
+                    "text": "It initializes a new string object",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What is the purpose of the try and except statements in Python?",
+            "answers": [
+                {
+                    "text": "To print errors to the user",
+                    "correct": false
+                },
+                {
+                    "text": "To execute code and handle potential exceptions",
+                    "correct": true
+                },
+                {
+                    "text": "To log exceptions to a file",
+                    "correct": false
+                },
+                {
+                    "text": "To prevent syntax errors",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "What is the time complexity (average time) of linear search?",
+            "answers": [
+                {
+                    "text": "O(n^2)",
+                    "correct": false
+                },
+                {
+                    "text": "O(log n)",
+                    "correct": false
+                },
+                {
+                    "text": "O(n)",
+                    "correct": true
+                },
+                {
+                    "text": "O(1)",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What is the time complexity (average time) of linear search?",
+            "answers": [
+                {
+                    "text": "O(n^2)",
+                    "correct": false
+                },
+                {
+                    "text": "O(log n)",
+                    "correct": false
+                },
+                {
+                    "text": "O(n)",
+                    "correct": true
+                },
+                {
+                    "text": "O(1)",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What is the time complexity of accessing the first element of a linked list?",
+            "answers": [
+                {
+                    "text": "O(1)",
+                    "correct": true
+                },
+                {
+                    "text": "O(n)",
+                    "correct": false
+                },
+                {
+                    "text": "O(log n)",
+                    "correct": false
+                },
+                {
+                    "text": "O(n log n)",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What technique splits the dataset into subsets to train and validate the performance?",
+            "answers": [
+                {
+                    "text": "Regularization",
+                    "correct": false
+                },
+                {
+                    "text": "Normalization",
+                    "correct": false
+                },
+                {
+                    "text": "Cross-validation",
+                    "correct": true
+                },
+                {
+                    "text": "Backpropagation",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What term refers to a neural network layer that connects the input and output layers?",
+            "answers": [
+                {
+                    "text": "Hidden layer",
+                    "correct": true
+                },
+                {
+                    "text": "Output layer",
+                    "correct": false
+                },
+                {
+                    "text": "Input layer",
+                    "correct": false
+                },
+                {
+                    "text": "Dense layer",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What term refers to a target or desired value for the neural network output?",
+            "answers": [
+                {
+                    "text": "Prediction",
+                    "correct": false
+                },
+                {
+                    "text": "Activation",
+                    "correct": false
+                },
+                {
+                    "text": "Gradient",
+                    "correct": false
+                },
+                {
+                    "text": "Label",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What term refers to the target variable that we are trying to predict in a regression problem?",
+            "answers": [
+                {
+                    "text": "Dependent variable",
+                    "correct": true
+                },
+                {
+                    "text": "Categorical variable",
+                    "correct": false
+                },
+                {
+                    "text": "Independent variable",
+                    "correct": false
+                },
+                {
+                    "text": "Input variable",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What term refers to the vertical differences between the observed responses and the responses predicted by the regression line?",
+            "answers": [
+                {
+                    "text": "Errors",
+                    "correct": false
+                },
+                {
+                    "text": "Noise",
+                    "correct": false
+                },
+                {
+                    "text": "Residuals",
+                    "correct": true
+                },
+                {
+                    "text": "Outliers",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "What type of learning has labeled input data?",
+            "answers": [
+                {
+                    "text": "Unsupervised learning",
+                    "correct": false
+                },
+                {
+                    "text": "Supervised learning",
+                    "correct": true
+                },
+                {
+                    "text": "Semi-supervised learning",
+                    "correct": false
+                },
+                {
+                    "text": "Self-supervised learning",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "When a population is concentrated in one area or we are sampling a concentrated natural population such as fruit in an orchard or manufactured goods, which method is generally preferred",
+            "answers": [
+                {
+                    "text": "Systematic sampling",
+                    "correct": false
+                },
+                {
+                    "text": "Convenience Sampling",
+                    "correct": false
+                },
+                {
+                    "text": "Simple Random Sampling",
+                    "correct": true
+                },
+                {
+                    "text": "Cluster Sampling",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "When looking at ratings on Amazon we can see the distribution of reviews. Some products are only reviewed by a few people, while others are reviewed by many people. According to the supplemental information in the readings and videos, to compare the products",
+            "answers": [
+                {
+                    "text": "we simply use the distributions we have because we don't have other information.",
+                    "correct": false
+                },
+                {
+                    "text": "for each product we try to estimate the distribution for each product by estimating it from a family of distributions and the number of reviews.",
+                    "correct": true
+                },
+                {
+                    "text": "we pick a threshold for the number of reviews and we throw away reviews with fewer than the threshold number of reviews.",
+                    "correct": false
+                },
+                {
+                    "text": "we ignore the full score and 0-star reviews because they are not informative.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "When would be consider a two sided p-value?",
+            "answers": [
+                {
+                    "text": "if the test statistic is a t-statistic",
+                    "correct": false
+                },
+                {
+                    "text": "when our statistic is the median rather than the mean",
+                    "correct": false
+                },
+                {
+                    "text": "if statistic is the absolute value of the difference between the mean and the null hypothesis",
+                    "correct": false
+                },
+                {
+                    "text": "if we don't know if the observed value may be above or below the mean of the null hypothesis statistic",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "When would you more likely use a **while** loop rather than a for loop?",
+            "answers": [
+                {
+                    "text": "When you are running some code 15 times",
+                    "correct": false
+                },
+                {
+                    "text": "When you have a list of strings to process.",
+                    "correct": false
+                },
+                {
+                    "text": "When you don't know how many times you will need to run the code but you have a condition that will stop the loop",
+                    "correct": true
+                },
+                {
+                    "text": "When you think you need to use a continue statement.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Which are least likely to be potential reasons scientific results published in a top journal may not be reproducible?",
+            "answers": [
+                {
+                    "text": "the scientists didn't check the results were statistically significant",
+                    "correct": true
+                },
+                {
+                    "text": "not enough details in the published work to replicate the procedure",
+                    "correct": false
+                },
+                {
+                    "text": "subtle errors were hiding in the experiment's design, execution, or analysis of the data",
+                    "correct": false
+                },
+                {
+                    "text": "there may be an unknown factor like a condition that many of the subject conditions had (not a random sample)",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Which attribute is designated a private attribute?",
+            "answers": [
+                {
+                    "text": "self._x",
+                    "correct": true
+                },
+                {
+                    "text": "private x",
+                    "correct": false
+                },
+                {
+                    "text": "private(self.x)",
+                    "correct": false
+                },
+                {
+                    "text": "self_private.x",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "Which does *NOT* make sense:",
+            "answers": [
+                {
+                    "text": "a value has a type",
+                    "correct": false
+                },
+                {
+                    "text": "a variable has a value",
+                    "correct": false
+                },
+                {
+                    "text": "the identifier of a variable is a variable name",
+                    "correct": false
+                },
+                {
+                    "text": "a value has a variable name",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "Which is **not** a likely a contributing reason for the \"reproducibility crisis\" in science",
+            "answers": [
+                {
+                    "text": "researchers faking data for attention",
+                    "correct": false
+                },
+                {
+                    "text": "researchers not specifying clearly their data analysis methodology",
+                    "correct": false
+                },
+                {
+                    "text": "researchers misunderstanding the meaning of a p-value",
+                    "correct": false
+                },
+                {
+                    "text": "published results fail to consider p-values",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Which is a primary concern in \"probability sampling\"?",
+            "answers": [
+                {
+                    "text": "Modeling the random process from a probability distribution",
+                    "correct": false
+                },
+                {
+                    "text": "Choosing a small enough sample size for fast computation",
+                    "correct": false
+                },
+                {
+                    "text": "Avoiding under or over-representing sub-populations in the sample",
+                    "correct": true
+                },
+                {
+                    "text": "Maximizing the margin of error",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Which of the following best describes the goal of clustering?",
+            "answers": [
+                {
+                    "text": "To predict a categorical variable",
+                    "correct": false
+                },
+                {
+                    "text": "To group similar data points together",
+                    "correct": true
+                },
+                {
+                    "text": "To classify data points",
+                    "correct": false
+                },
+                {
+                    "text": "To reduce dimensionality",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Which of the following best describes the goal of regression analysis?",
+            "answers": [
+                {
+                    "text": "To predict a categorical variable from a set of features",
+                    "correct": false
+                },
+                {
+                    "text": "To classify data points into categories",
+                    "correct": false
+                },
+                {
+                    "text": "To predict a quantitative response based on predictor variables",
+                    "correct": true
+                },
+                {
+                    "text": "To identify clusters in data",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "Which of the following best describes the significance of Conway's game of life:",
+            "answers": [
+                {
+                    "text": "a simulation with simple rules can generate arbitrary complexity",
+                    "correct": true
+                },
+                {
+                    "text": "a computer can be programmed to win, even something as challenging as Conway's game of life",
+                    "correct": false
+                },
+                {
+                    "text": "quantum mechanics is incomplete",
+                    "correct": false
+                },
+                {
+                    "text": "the universe cannot be a computer simulation",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Which of the following best describes what a z-score represents?",
+            "answers": [
+                {
+                    "text": "The number of standard deviations a data point is from the mean",
+                    "correct": true
+                },
+                {
+                    "text": "The data value divided by the standard deviation",
+                    "correct": false
+                },
+                {
+                    "text": "The percentile rank of a data point",
+                    "correct": false
+                },
+                {
+                    "text": "The probability of observing that data point",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Which of the following is **not** a measure of data spread:",
+            "answers": [
+                {
+                    "text": "Range",
+                    "correct": false
+                },
+                {
+                    "text": "Standard Deviation",
+                    "correct": false
+                },
+                {
+                    "text": "the mean",
+                    "correct": true
+                },
+                {
+                    "text": "Interquartile range",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Which of the following is **not** a proper definition",
+            "answers": [
+                {
+                    "text": "A population is all the possible data points of possible interest",
+                    "correct": false
+                },
+                {
+                    "text": "A sample is a subset of those data points",
+                    "correct": false
+                },
+                {
+                    "text": "A parameter is a number describing a computed function on a whole population",
+                    "correct": false
+                },
+                {
+                    "text": "A statistic is a computed function on the whole population such as the average",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Which of the following is a difference between a list and a tuple?",
+            "answers": [
+                {
+                    "text": "tuples cannot hold string but lists can",
+                    "correct": false
+                },
+                {
+                    "text": "elements of a tuple are separated by commas but elements of a list are separated by spaces",
+                    "correct": false
+                },
+                {
+                    "text": "elements of a tuple cannot be changed but elements of a list can be changed",
+                    "correct": true
+                },
+                {
+                    "text": "you can use \"len()\" on a list but not on a tuple",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Which of the following is a valid way to access the last element of a list named my_list?",
+            "answers": [
+                {
+                    "text": "my_list[0]",
+                    "correct": false
+                },
+                {
+                    "text": "my_list[-1]",
+                    "correct": true
+                },
+                {
+                    "text": "my_list[last]",
+                    "correct": false
+                },
+                {
+                    "text": "my_list[len(my_list)]",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Which of the following is an advantage of encapsulation?",
+            "answers": [
+                {
+                    "text": "It makes code easier to reuse",
+                    "correct": false
+                },
+                {
+                    "text": "It allows data hiding",
+                    "correct": true
+                },
+                {
+                    "text": "It enables the same method name to be used by different classes",
+                    "correct": false
+                },
+                {
+                    "text": "It reduces coupling",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Which of the following is an application of bootstrapping?",
+            "answers": [
+                {
+                    "text": "To find the mean of a population",
+                    "correct": false
+                },
+                {
+                    "text": "To resample a sample in order to estimate the uncertainty of a sample statistic",
+                    "correct": true
+                },
+                {
+                    "text": "to find the p-value of two groups",
+                    "correct": false
+                },
+                {
+                    "text": "to determine the median of a sample",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Which of the following is true about sampling error?",
+            "answers": [
+                {
+                    "text": "You can eliminate sampling error by taking a truly random sample",
+                    "correct": false
+                },
+                {
+                    "text": "Sampling error depends on the ratio (proportion) of the sample size, to the population size",
+                    "correct": false
+                },
+                {
+                    "text": "Sampling error depends on the sample size regardless of how large the population is",
+                    "correct": true
+                },
+                {
+                    "text": "We can accurately measure the extent of sampling error even without the population parameters",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Which of the following is true of sets?",
+            "answers": [
+                {
+                    "text": "Sets are ordered.",
+                    "correct": false
+                },
+                {
+                    "text": "Sets are mutable.",
+                    "correct": false
+                },
+                {
+                    "text": "Sets can contain duplicate values.",
+                    "correct": false
+                },
+                {
+                    "text": "Sets cannot be indexed",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Which of the following should we **not** expect to be a consequence of the \"law of large numbers\"?",
+            "answers": [
+                {
+                    "text": "The more runs we do of a simulation, the closer we expect a statistic of that simulation (eg. number of heads for a sequence of coin flips) to match the theoretical value",
+                    "correct": false
+                },
+                {
+                    "text": "The larger the number of unlikely events we see, in a sequence, such as rolling a 6 on 6-sided dice, the more likely the next roll will be less surprising",
+                    "correct": true
+                },
+                {
+                    "text": "The bigger a sample we pick of a population, the more likely it will be representative of the larger population when attributes are measured",
+                    "correct": false
+                },
+                {
+                    "text": "As we average over more runs or more data points, the variation in that average will tend to decrease",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "Which of the following statements is true about merge sort?",
+            "answers": [
+                {
+                    "text": "It is faster than quick sort for small input sizes",
+                    "correct": false
+                },
+                {
+                    "text": "It uses divide and conquer approach",
+                    "correct": true
+                },
+                {
+                    "text": "It is not a stable sort",
+                    "correct": false
+                },
+                {
+                    "text": "It has a worst-case complexity of O(n)",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Which of the following statements is true about merge sort?",
+            "answers": [
+                {
+                    "text": "It is faster than quick sort for small input sizes",
+                    "correct": false
+                },
+                {
+                    "text": "It uses divide and conquer approach",
+                    "correct": true
+                },
+                {
+                    "text": "It is not a stable sort",
+                    "correct": false
+                },
+                {
+                    "text": "It has a worst-case complexity of O(n)",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "Which of the following sum of 2D arrays would give an error because of incompatible dimensions?",
+            "answers": [
+                {
+                    "text": "np.ones((2,3)) + np.ones((3,2))",
+                    "correct": true
+                },
+                {
+                    "text": "np.ones((2,3)) + np.ones((1,3))",
+                    "correct": false
+                },
+                {
+                    "text": "np.ones((2,3)) + np.ones((2,3))",
+                    "correct": false
+                },
+                {
+                    "text": "np.ones((2,3)) + 99",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "Which of these would be an example of the term \"P-hacking\"",
+            "answers": [
+                {
+                    "text": "a researcher faked the data on chocolate using a computer program to get a desired p-value for a reduction in heart attack",
+                    "correct": false
+                },
+                {
+                    "text": "a researcher examined different many different colors and flavors of jelly bean to see if any of them had a p-value low enough to show they caused achne",
+                    "correct": true
+                },
+                {
+                    "text": "the researchers did not have a control group",
+                    "correct": false
+                },
+                {
+                    "text": "researchers excluded data and reported the p-value only based on how far they were from their conclusion",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Which percentile represents the median of a distribution?",
+            "answers": [
+                {
+                    "text": "1st",
+                    "correct": false
+                },
+                {
+                    "text": "25th",
+                    "correct": false
+                },
+                {
+                    "text": "50th",
+                    "correct": true
+                },
+                {
+                    "text": "75th",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "Which search algorithm works by dividing the search space in half repeatedly?",
+            "answers": [
+                {
+                    "text": "Binary search",
+                    "correct": true
+                },
+                {
+                    "text": "Linear search",
+                    "correct": false
+                },
+                {
+                    "text": "Interval search",
+                    "correct": false
+                },
+                {
+                    "text": "Exponential search",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Which search algorithm works by dividing the search space in half repeatedly?",
+            "answers": [
+                {
+                    "text": "Binary search",
+                    "correct": true
+                },
+                {
+                    "text": "Linear search",
+                    "correct": false
+                },
+                {
+                    "text": "Interval search",
+                    "correct": false
+                },
+                {
+                    "text": "Exponential search",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": null,
+            "question_text": "Which statement correctly describes the overall process of selection sort?",
+            "answers": [
+                {
+                    "text": "Divide array into subarrays, sort subarrays recursively",
+                    "correct": false
+                },
+                {
+                    "text": "Insert each element into the correct position in a sorted subarray",
+                    "correct": false
+                },
+                {
+                    "text": "Select minimum from unsorted subarray, move to sorted position",
+                    "correct": true
+                },
+                {
+                    "text": "Swap adjacent elements that are out of order",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Which statement correctly describes the overall process of selection sort?",
+            "answers": [
+                {
+                    "text": "Divide array into subarrays, sort subarrays recursively",
+                    "correct": false
+                },
+                {
+                    "text": "Insert each element into the correct position in a sorted subarray",
+                    "correct": false
+                },
+                {
+                    "text": "Select minimum from unsorted subarray, move to sorted position",
+                    "correct": true
+                },
+                {
+                    "text": "Swap adjacent elements that are out of order",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Which type of learning does clustering fall under?",
+            "answers": [
+                {
+                    "text": "Supervised learning",
+                    "correct": false
+                },
+                {
+                    "text": "Semi-supervised learning",
+                    "correct": false
+                },
+                {
+                    "text": "Unsupervised learning",
+                    "correct": true
+                },
+                {
+                    "text": "Reinforcement learning",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Which way will work to read a text file where the columns are separated by tabs and the rows by \"\\n\"?",
+            "answers": [
+                {
+                    "text": "data = pd.read_csv('http://bit.ly/chiporders')",
+                    "correct": false
+                },
+                {
+                    "text": "data = pd.read_table('http://bit.ly/chiporders', sep='\\tab')",
+                    "correct": false
+                },
+                {
+                    "text": "pd.read_table('http://bit.ly/chiporders', sep=',')",
+                    "correct": false
+                },
+                {
+                    "text": "data = pd.read_table('http://bit.ly/chiporders')",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "While we can often use computer simulations for calculations, we can sometimes bring our simulation to the \"real world\" in that by setting up a physical simulation we can do a difficult computation. What is an example of this we have seen in the supplemental material?",
+            "answers": [
+                {
+                    "text": "computing e by stacking elephants on top of each other",
+                    "correct": false
+                },
+                {
+                    "text": "randomly throwing darts and comparing how many darts are inside or outside a circle to compute pi.",
+                    "correct": true
+                },
+                {
+                    "text": "computing pi by weighting a box full of water",
+                    "correct": false
+                },
+                {
+                    "text": "computing the golden ratio by measuring the rings on pine cones",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Why are methods typically defined with self as the first parameter?",
+            "answers": [
+                {
+                    "text": "It refers to the parent class",
+                    "correct": false
+                },
+                {
+                    "text": "It refers to the name of the function itself",
+                    "correct": false
+                },
+                {
+                    "text": "It allows access to the current instance calling the method",
+                    "correct": true
+                },
+                {
+                    "text": "It is a placeholder parameter name",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "Why is \"equals\" not the \"equals\" of math?",
+            "answers": [
+                {
+                    "text": "in python \"=\" is a comparison",
+                    "correct": false
+                },
+                {
+                    "text": "because decimals are not exact",
+                    "correct": false
+                },
+                {
+                    "text": "in python \"==\" is an assignment",
+                    "correct": false
+                },
+                {
+                    "text": "python \"=\" is an assignment",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "With the bootstrap method, which of the following is **not** true",
+            "answers": [
+                {
+                    "text": "a bootstrap sample could pick the same data point over and over again",
+                    "correct": false
+                },
+                {
+                    "text": "the advantage of the bootstrap sample is that it may be used to test the confidence interval of any statistic (such as the median)",
+                    "correct": false
+                },
+                {
+                    "text": "a weakness of bootstrap is that the underlying probability distribution must be known",
+                    "correct": true
+                },
+                {
+                    "text": "when working with the arithmetic mean, the confidence interval can be computed without bootstrap sampling",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "animals_legs = {'dog': 4, 'octopus': 8, 'human': 2} Based on how for loops work (or don't work) which of list comprehensions will *not* work and gives an error?",
+            "answers": [
+                {
+                    "text": "[key for key in animals_legs]",
+                    "correct": false
+                },
+                {
+                    "text": "[value for value in animals_legs.values()]",
+                    "correct": false
+                },
+                {
+                    "text": "[key, value for key, value in animals_legs]",
+                    "correct": true
+                },
+                {
+                    "text": "[key, value for key, value in animals_legs.items()]",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "",
+            "question_text": "if df is a data frame then the difference between df['sales'] and df[['sales']] is that",
+            "answers": [
+                {
+                    "text": "df['sales'] is a Series and df[['sales']] is a DataFrame",
+                    "correct": true
+                },
+                {
+                    "text": "df[['sales']] is a Series and df['sales'] is a DataFrame",
+                    "correct": false
+                },
+                {
+                    "text": "df['sales'] gives the first row where the index matches \"sales\" and df[['sales']] gives all the rows where the index matches sales",
+                    "correct": false
+                },
+                {
+                    "text": "df['sales'] throws an exception if 'sales' isn't a column while df[['sales']] produces a column of NaN (not a number)",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "title": "list comp",
+            "question_text": "What is the output of the following code snippet?\r\nmy_list = [1, 2, 3, 4, 5]\r\nnew_list = [x * 2 for x in my_list if x % 2 == 0]\r\nprint(new_list)",
+            "answers": [
+                {
+                    "text": "[2, 4, 6, 8, 10]",
+                    "correct": true
+                },
+                {
+                    "text": "[2, 4]",
+                    "correct": false
+                },
+                {
+                    "text": "[1, 2, 3, 4, 5]",
+                    "correct": false
+                },
+                {
+                    "text": "[1, 3, 5]",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}
