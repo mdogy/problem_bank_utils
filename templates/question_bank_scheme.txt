@@ -1,0 +1,27 @@
+[
+  {
+    "questionId": "string",
+    "questionType": "string",
+    "questionText": "string",
+    "topic": "string",
+    "options": [
+      {
+        "optionId": "string",
+        "text": "string",
+        "isCorrect": "boolean"
+      }
+    ],
+    "answer": "null",
+    "explanation": "string",
+    "courseMapping": {
+      "courseId": "string",
+      "week": "number",
+      "block": "string"
+    },
+    "metadata": {
+      "difficulty": "string",
+      "blooms": "string",
+      "keywords": ["string"]
+    }
+  }
+]
