@@ -1,0 +1,5617 @@
+[
+  {
+    "questionId": "7a623043-69e6-4eb3-999f-105bb9ca225a",
+    "questionType": "multiple_choice",
+    "questionText": "In Python, what is the difference between the number 4 and the number 4.0?\r\n\r\nThey are different",
+    "topic": "4 vs 4.0",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "types",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "code",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "variables",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "statements",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "2e1e17b5-d78f-4efe-bff6-f1c89dc09938",
+    "questionType": "multiple_choice",
+    "questionText": "A NumPy array cannot have (video: \"#1 Arrays & Data Types\")",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "integer data, it can only hold floats",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "float data, it can only hold integers",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "multiple different types of data",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "float32 data",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "1c98e44e-3f15-4fb8-a618-d40d2d210fba",
+    "questionType": "multiple_choice",
+    "questionText": "A bootstrap confidence interval will be inaccurate if:",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "The original sample size is too large",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "The bootstrap statistic is bimodal",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "The confidence level is 99%",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "The original sample is not random",
+        "isCorrect": true
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "3b4116f3-811b-4de2-bf43-e5c762214ac3",
+    "questionType": "multiple_choice",
+    "questionText": "A primary difference between linear regression and polynomial regression is:",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Polynomial regression uses transformed versions of the predictors that raise them to integer powers",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "Linear regression always has better performance",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Polynomial regression has polynomial number of parameters",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Polynomial regression works better with categorical predictors",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "8e4146c5-b7a9-448d-a58f-75d73841aa13",
+    "questionType": "multiple_choice",
+    "questionText": "A random walk, as discussed is a process where we pick a point in a region and",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "then keep choosing other random points in the region",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "we pick a number between 0 and 1, and if it is larger than a fixed number p we just pick another point in the region. We do this a number of times.",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "we start at some point and we randomly choose a direction and move one unit in that direction. We repeat this process a number of times.",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "we then call scipy.random_walk(x,N) where x is the starting point and N is the number of steps we want to go.",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "ea671b4c-76fc-47e4-ad00-1c792fc178bd",
+    "questionType": "multiple_choice",
+    "questionText": "An algorithm is best described as:",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Software",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Hardware",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Operating system",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Set of steps for solving a problem",
+        "isCorrect": true
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "ec0b785d-67c1-4220-818a-dfc6beb35ae4",
+    "questionType": "multiple_choice",
+    "questionText": "An algorithm processes each element of an input dataset sequentially. What is its time complexity?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "O(1)",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "O(n)",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "O(n log n)",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "O(n^2)",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "1aae9865-d1cc-4530-a795-51f35b64e29a",
+    "questionType": "multiple_choice",
+    "questionText": "An important weakness in a p-value is that",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "it is usually very difficult to compute",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "it is very easy to fake",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "the size of the recommended cut-off is arbitrary (someone could argue it should be smaller or larger)",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "p-values cannot be used if the distribution is not \"normal\" (a bell curve)",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "559ecde7-645d-44d3-9a87-9c37d55583a3",
+    "questionType": "multiple_choice",
+    "questionText": "An interesting and surprising result is that Chebychev's Bounds which implies that",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "75% of the data is within 2 standard deviations of the mean even if the data is not normally distributed",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "95% of the data is within 2 standard deviations of the mean even if the data is not normally distributed",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "95% of the data is within 2 standard deviations of the mean even only if the data is normally distributed",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "we can define outliers as being more than 6 standard deviations away from the mean",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "e8dbd447-b35f-4890-a68f-f2973d6f118f",
+    "questionType": "multiple_choice",
+    "questionText": "What is the term for things like +, -, *, and / ?",
+    "topic": "Combining values",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "operators",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "variables",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "types",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "statements",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "75bd761c-945e-4988-9d3e-29ebc3d3e754",
+    "questionType": "multiple_choice",
+    "questionText": "Grace Hopper's compiler",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "compiled data for further analysis",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "transformed high-level code to machine code",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "grouped opcodes together for speed",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "compiled errors for debugging",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "e3a7e9eb-9af1-468b-97ff-96f5c0e77b4f",
+    "questionType": "multiple_choice",
+    "questionText": "How can you read the contents of a text file into a string variable in Python assuming file was created with an \"open\" statement?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "contents = file.read()",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "contents = read(file)",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "contents = file.contents()",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "contents = file.getText()",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "1834fb45-570d-4c91-8ddb-2b6b19dad8d9",
+    "questionType": "multiple_choice",
+    "questionText": "How does Python handle execution of recursive calls?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Recursive calls are evaluated first",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Caller waits for recursive call to finish",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "All recursive calls happen in parallel",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Order of execution cannot be determined",
+        "isCorrect": false
+      },
+      {
+        "optionId": "5",
+        "text": "Recursive call launches separate process",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "2031bf5a-52cf-4cee-9234-9e3be0cb6239",
+    "questionType": "multiple_choice",
+    "questionText": "How does kNN classification work?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "By grouping training observations into clusters and assigning the cluster label",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "By drawing a linear decision boundary between classes",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "By predicting the probability of each class and selecting the highest",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "By finding the closest labeled points and selecting the majority class",
+        "isCorrect": true
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "4055c42e-e996-4545-b46f-dc923967b37f",
+    "questionType": "multiple_choice",
+    "questionText": "How is each data point assigned to a cluster in K-means?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "To the nearest centroid",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "Randomly",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "In descending order",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "By splitting the dataset",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "ece8f66d-9fa3-4b7e-8b4f-b03b65da191d",
+    "questionType": "multiple_choice",
+    "questionText": "How is the Silhouette coefficient calculated?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "By taking the ratio of between-cluster and within-cluster distances",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "By taking the difference of within-cluster and between-cluster distances, normalized by the maximum",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "As the cluster density multiplied by scatter",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "By taking the ratio of densities between clusters",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "ee4b2e5b-8541-48b2-8d7e-1431e52e5d38",
+    "questionType": "multiple_choice",
+    "questionText": "If A = {'a', 'b'} and B = {'c', 'd'} then what do we get when we print(A.intersection(B))?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "set()",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "None",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "[]",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "{'a', 'b', 'c', 'd'}",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "4ccc7494-297e-4bdc-933a-2b78eae3b957",
+    "questionType": "multiple_choice",
+    "questionText": "If A is of type numpy.ndarray, and we know that it is a 2D array. Which is the correct way to get the number of rows and columns?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "A.size",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "A.rows, A.cols",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "A.shape",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "A.shape()",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "e9fc6e9a-f0c7-4ebd-8425-263f35a2d693",
+    "questionType": "multiple_choice",
+    "questionText": "If Alice is a class and Bob is a subclass, this means",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Bob is an Alice",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "Alice is a Bob",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Alice has a Bob",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Bob has an Alice",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "a3d1fb30-fb62-456f-b830-03aa53943dcf",
+    "questionType": "multiple_choice",
+    "questionText": "If alice is a object and bob is another object and we have alice.x == bob",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "bob is a subobject of alice",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "bob is an alice (subclass)",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "alice has a bob (composition)",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "bob has an alice (composition)",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "95eee020-d141-424b-82a3-0b27cb1f961b",
+    "questionType": "multiple_choice",
+    "questionText": "If data is a pandas data frame, which of the following is most closely a systematic sampling of the data?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "data.take(np.arange(np.random.choice(np.arange(10)), data.shape[0], 10))",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "data.take(np.arange(int(data.shape[0]/10)))",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "data.take(np.random.randint(0, high=data.shape[0], size=int(data.shape[0]/10)))",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "data[data.sum(axis=1) &lt; data.sum(axis=1).values.mean()]",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "4f53bd11-fcdc-4c01-a7e2-1c393e649e0c",
+    "questionType": "multiple_choice",
+    "questionText": "If we are building a confidence interval for the mean based on sample, then a 95% confidence interval we are trying to find",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "the range of values that with 95% probability contains the population mean",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "the range that contains 95% of the data",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "the range of values that contain 95% of population values",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "the interquartile range of the sample",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "08c2a4cb-90b9-4572-ae67-6956ba7e37d7",
+    "questionType": "multiple_choice",
+    "questionText": "If we have a dictionary `favorite_ices = {'stewart': 'bannana', 'kevin': 'lemon'}' and we execute the code `print(\"popular flavors are {kevin} and {stewart}\".format(**favorite_ices))`, what is the output?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "popular flavors are lemon and bannana",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "popular flavors are bannana and lemon",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "popular flavors are {kevin} and {stewart}",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "the code does not run because of a syntax error",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "de97ebab-e60e-47ad-8021-b274d26a4634",
+    "questionType": "multiple_choice",
+    "questionText": "If we imagine theoretically taking multiple samples, the confidence interval should",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "contain 95% of the data sample",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "contain the mean of a sample 95% of the time",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "best be determined by a t-distribution when there is more data",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "have probability 100% when it contains a all points in a sample",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "ad39e715-5b6a-4002-b93b-1191f0be4f20",
+    "questionType": "multiple_choice",
+    "questionText": "If we set `sample_string = 'seed sprout seedling sapling tree'` and we want as output the string 'seed-&gt;sprout-&gt;seedling-&gt;sapling-&gt;tree', which code could we use",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "\"-&gt;\".join(sample_string.split(\" \"))",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "sample_string.join(\"-&gt;\")",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "sample_string.split(\" \").join(\"-&gt;\")",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "sample_string.join(\"-&gt;\").split(\" \")",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "64bec9f9-c54d-4817-b212-69a903e142fd",
+    "questionType": "multiple_choice",
+    "questionText": "If x is a value in a sample A of n-data points and we want to find what percentile x is in, which of the following is the correct formula?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "100*(x-A.mean())/A.std()",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "100*len(A[A",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "100*len(A[A&gt;x])/len(A)",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "np.percentile(A,66.6)",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "9dc86b73-7bcf-47a4-86b7-4e07df67204c",
+    "questionType": "multiple_choice",
+    "questionText": "Images are stored as:",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Videos",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Tables",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Multi-dimensional arrays",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "Graphs",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "895e80de-d22c-433d-b7ff-da755c4da2e4",
+    "questionType": "multiple_choice",
+    "questionText": "In a pandas series the index is always",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "integers starting at 0 up to one minus the number of rows, indexing the row just like a python list",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "a set of labels (could be ints) referencing each row",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "a set of column names",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "the integer starting at 0 up to one minus the number of columns indexing the column",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "f76655be-f5fe-4c0b-9797-b231ebeab799",
+    "questionType": "multiple_choice",
+    "questionText": "In math, we can do set operations like union and intersection. For example, if A and B are sets, python allows us to say A.union(B) or A.intersection(B). We also have operators for these operations. Which of the following is **not** a valid operation for sets A and B?:",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "A | B",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "A + B",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "A &amp; B",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "A - B",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "394b9683-f9a9-4638-8960-415e47dfb4ec",
+    "questionType": "multiple_choice",
+    "questionText": "In simple one variable linear regression, how many coefficients need to be estimated?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "0",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "2",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "As many as there are data points",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "It depends on the number of features",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "06063ad9-7e93-4cac-a6a6-7cd2c5c77782",
+    "questionType": "multiple_choice",
+    "questionText": "In the Monty Hall problem we have three doors. Behind one door is a car, and behind the other two doors are junks, eg. a goat and a pile of junk. The contestant chooses a door, let's say door 1. The host, who knows what is behind the doors, opens one of the other doors, let's say door 3, which has a goat behind it. The host then gives the contestant the option to stick with their original choice or switch to the last unopened door, let's say door 2. If the contestant sticks with their original choice the probability of getting the car",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "is 1/2 because it is either behind door 1 or door 2.",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "is 2/3 because the probability of their picked door has changed from 1/3 to 2/3.",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "is 1/3 since there were three doors and one was chosen.",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "can only be computed with a computer simulation",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "18ad21e0-3878-40fa-a482-c362d4c6eb98",
+    "questionType": "multiple_choice",
+    "questionText": "In the expression `y = math.sin(x)`,",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "`x` is called the function argument, and `y` is the called the function return value",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "`y` is called the function argument, and `x` is the called the function return value",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "`x` is called the input, and `y` is the called the output",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "`y` is called the input, and `x` is the called the output",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "32aa10bb-196f-4b06-98c5-bd96a8954dae",
+    "questionType": "multiple_choice",
+    "questionText": "In the following code, what is the value of&nbsp;x&nbsp;after the code is executed?\r\n\r\ndef adder(y):\r\n    x = 12\r\n    return y + x\r\n\r\nx = 14\r\ny = 7\r\nprint(\"return value of the function:\", adder(y))\r\nprint(\"value of x:\", x)\r\n",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "x&nbsp;is 7",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "x&nbsp;is 14",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "x&nbsp;is 12",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "The code will not run",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "edac2fd4-a48d-4d03-9120-4f148e6a0106",
+    "questionType": "multiple_choice",
+    "questionText": "In the following code, what value is returned by the function&nbsp;addEm when it is called with three numbers?\r\n\r\ndef addEm(x, y, z): \r\n&nbsp; &nbsp;&nbsp;print(x + y + z)\r\n",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "None",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "the value of x+y+z",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "the string \u2018x+y+z\u2019",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "the code does not run because of a syntax error",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "f69a4b9b-892b-4769-b045-fe81513a09bf",
+    "questionType": "multiple_choice",
+    "questionText": "In the game example virtual Grace Hopper (programming languages video), the goal was to",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "collect coins",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "smash bugs",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "escape from a maze",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "win a car race",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "d78a0a71-7284-434a-99ef-0cd765dd7b45",
+    "questionType": "multiple_choice",
+    "questionText": "In the middle ages, there was a high infant mortality rate. While people who made it to 30 were likely to live to 50. Given this, a better measure of the central tendency for life expectancy is the",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "mean",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "median",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "mode",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "the geometric mean",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "e8db2b88-2ee7-4e63-85f1-294f424d826b",
+    "questionType": "multiple_choice",
+    "questionText": "Increasing the degree of the polynomial in a polynomial regression model can lead to _______.",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Overfitting",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "Underfitting",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Multicollinearity",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "High bias",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "2408ddfe-e296-4a3c-af95-02b542770f14",
+    "questionType": "multiple_choice",
+    "questionText": "Let's say that we have a measurement which is a floating point number between 0 and 1. The probability that this measurement is exactly 0.5 is 0 since there are infinitely many possibilities .... so we basically have 1 way it can happen divided by infinite possibilities. In the discussion on probabilities in the supplemental material, we resolve this by",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "adding a positive small number which is our minimal error.",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "adding 2 to the numerator.",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "just using the Poisson distribution.",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "replacing a probability distribution with a continuous probability density with the probability of the area under the curve.",
+        "isCorrect": true
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "e136b097-515c-436d-bbea-25d2eaa6de7c",
+    "questionType": "multiple_choice",
+    "questionText": "Numpy can easily be used (\"Learn NumPy in 5 minutes\") to do operations on",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "maps",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "an image",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "paragraphs of text",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "any database",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "7996bfbd-6603-482a-be0b-7d7745f42352",
+    "questionType": "multiple_choice",
+    "questionText": "On getting a python syntax error message, (python is picky) which is the **LEAST** likely thing that could be true?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "the error message reports that the error occurred on a line which is correct",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "a parenthesis or quote is missing",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "python, jupyter, or the website is broken",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "you copy-pasted from a website and there are hidden characters which just will not run",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "de2f6ad8-a50e-4c9e-86de-0dfed9432591",
+    "questionType": "multiple_choice",
+    "questionText": "One of the main considerations of a sorting algorithm is:",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Whether it can handle having multiple repeated elements",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Whether it moves from the left to right, or from the middle",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "How it compares two elements to each other",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "The overall average speed as a function of list size",
+        "isCorrect": true
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "69f325ee-2d3a-45fb-980c-4adc78d668fd",
+    "questionType": "multiple_choice",
+    "questionText": "One of the main considerations of a sorting algorithm is:",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Whether it can handle having multiple repeated elements",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Whether it moves from the left to right, or from the middle",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "How it compares two elements to each other",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "The overall average speed as a function of list size",
+        "isCorrect": true
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "26890864-cea7-4bf7-bdbf-320eea7626fe",
+    "questionType": "multiple_choice",
+    "questionText": "One thing about pandas is that",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "iloc uses a square bracket but loc uses a round bracket",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "loc uses a square bracket but iloc uses a round bracket",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "data frame **methods** (functions) are followed by parenthesis while **attributes** of the data frame are not",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "Data series and Data frames are the same thing",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "b5c417fa-3218-420c-bfd0-1b9c9395e9be",
+    "questionType": "multiple_choice",
+    "questionText": "Which of the following is not (yet) the name of a programming language",
+    "topic": "Programming Language",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Bunny",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "JavaScript",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Python",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "C++",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "a1a4dc0a-2670-4ebd-89d5-facdb670cb63",
+    "questionType": "multiple_choice",
+    "questionText": "In Python, if I take a name like \"temperature\" and assign a number to it like 20 this way\r\n\r\ntemperature = 20\r\n\r\nWhat do we call \"temperature\" (as a thing in python)",
+    "topic": "Put a number in a box",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "a variable",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "a type",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "an object",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "a statement",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "43b4aca1-a12c-497f-ac51-c6db8619b446",
+    "questionType": "multiple_choice",
+    "questionText": "How do we get Python write a string out to the notebook/screen?",
+    "topic": "Say something",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "print(\"Who parked their car on my sandwich?\")",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "write(\"Who parked their car on my sandwich?\")",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "output(\"Who parked their car on my sandwich?\")",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "\"Who parked their car on my sandwich?\" -&gt; output;",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "404d2e3f-af78-4a56-8bec-5e14655f24ec",
+    "questionType": "multiple_choice",
+    "questionText": "Suppose a and b are objects of class Foobar. Operator overloading enables",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "conversion of a to b",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "printing a and b as strings",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "using * to multiply a and b",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "subclassing a as b",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "72dcda05-bc6e-4dad-b0ab-7c9685b1e266",
+    "questionType": "multiple_choice",
+    "questionText": "Suppose mat = np.array([10,9,8,7,6,5,4]) and we want print(submat2) to show array([9,8,7])",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "mat[(10 > mat) and (mat > 6)]",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "mat[(10 > mat) && (mat > 6)]",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "mat[(10 > mat) & (mat > 6)]",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "(10 > mat) & (mat > 6)",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "72041ace-df94-4874-a63b-4a5d7a15bf9f",
+    "questionType": "multiple_choice",
+    "questionText": "Suppose mat = np.array([10,9,8,7,6,5,4]), submat = mat[-3:], submat[:]=12, what is the value of mat?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "array([12, 12, 12, 12, 12, 12, 12])",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "array([10,  9,  8,  7, 12, 12, 12])",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "array([10,  9,  8,  7, 12])",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "array([10, 9, 8, 7, 6, 5, 4])",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "c72bb945-20f4-45db-9f34-7f987b0e1bae",
+    "questionType": "multiple_choice",
+    "questionText": "Suppose we have a string like this `sample_string = \"Two things are infinite: the universe and human stupidity; and I'm not sure about the universe\"` and we want to check if the word universe appears at the end of the string. Which of the following code snippets would do that?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "`sample_string.endswith(\"universe\")`",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "`'universe' in sample_string`",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "`endwith(sample_string,\"universe\")`",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "`sample_string[-1] == 'universe'`",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "f7e8a2f6-30d3-4b5a-afe1-afc6cb070425",
+    "questionType": "multiple_choice",
+    "questionText": "In python, what do we call the word \"Swordfish\"?",
+    "topic": "Talk to machines",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "a string",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "text",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "char++",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "tastey",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "6957011e-6528-4934-a72a-bd4cc07f74f2",
+    "questionType": "multiple_choice",
+    "questionText": "Tensors can be represented in NumPy (Chapter 2) for example three of the following are prime examples whereas one is **not**. Which is the odd one out?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "a record containing a name, address, and phone number",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "a single number",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "a three-d vector representing a point in space",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "a matrix of numbers",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "24d41a7c-71fc-4998-b0c8-542aed3bf021",
+    "questionType": "multiple_choice",
+    "questionText": "The core of the central limit theorem says that",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "if the sample is large enough the data is normally distributed (bell curve)",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "that you should always use more than 30 data points in a sample",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "That the confidence interval is between one and two standard deviations away from the mean",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "that the distribution of the means of multiple samples is normally distributed (bell curve)",
+        "isCorrect": true
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "5f490d23-70b8-4411-944f-f131a42a8915",
+    "questionType": "multiple_choice",
+    "questionText": "The function pyplot.plot is primarily used for a",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "making a line plot",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "making a scatter plot",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "plotting a histogram",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "plotting a bar graph",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "0048c41e-49a1-486b-81f2-831be4ef6c4b",
+    "questionType": "multiple_choice",
+    "questionText": "The inspiration for using punch cards to store data for a computer came from a machine that used punch cards to control",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "a loom weaving fabric",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "music from music box",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Charles Babbage's analytic Engine",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "a machine that could print diagrams",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "c2b5269b-7662-42bf-b97c-7d05b5a69eeb",
+    "questionType": "multiple_choice",
+    "questionText": "There is a dictionary animals_legs = {'dog': 4, 'octopus': 8, 'human': 2}. Suppose we know that our code may sometimes try to access keys that do not exist and we don't want to get an error. We want it to print \"None\" instead. Which of the following is the best way to do this?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "print(animals_legs['spider'])",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "print(animals_legs.keys('spider'))",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "print(animals_legs.get('spider'))",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "print(animals_legs.items('spider'))",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "d75eae07-bf15-4c45-8d58-2eefaa435ee1",
+    "questionType": "multiple_choice",
+    "questionText": "To get access to a fictional library \"tastyantimatter\" in python you would say",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "include tastyantimatter",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "<- tastyantimatter",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "import tastyantimatter",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "access tastyantimatter",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "bd94b72f-1204-4dc5-9ab0-0abe6fcf4df3",
+    "questionType": "multiple_choice",
+    "questionText": "We have a numpy array A = np.array([[ 0,  1,  2], [ 3,  4,  5], [ 6,  7,  8], [ 9, 10, 11], [12, 13, 14]]) which of the following would give us the array array([ 6,  7,  8,  9, 10, 11, 12])",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "A[6:12]",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "A[2:4,:]",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "A[(A > 5) and (A <= 12) ]",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "A[(A > 5) & (A <= 12) ]",
+        "isCorrect": true
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "188d6611-fad0-4109-ba08-11b39871c20b",
+    "questionType": "multiple_choice",
+    "questionText": "We have a numpy array b = np.array([ 6,  9, 14, 21, 30, 41]) which of the following gives the result True?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "all((b % 5)  == 0)",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "any((b % 5)  == 0)",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "any((b % 11)  == 0)",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "all((b % 11)  == 0)",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "bc92b7f2-8f7a-4757-8040-02d32e79240c",
+    "questionType": "multiple_choice",
+    "questionText": "What algorithm adjusts the weights in a neural network?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Regression",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Classification",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Backpropagation",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "Overfitting",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "7a4c7368-76fa-4f39-bc4d-01c251e14fbe",
+    "questionType": "multiple_choice",
+    "questionText": "What causes overfitting?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Having too few features",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Training for too long",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Capturing spurious patterns that don't generalize",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "Having imbalanced training data",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "154fd224-ad22-43ae-a3bb-ff50659a783b",
+    "questionType": "multiple_choice",
+    "questionText": "What clause allows you to execute code regardless of any exceptions being raised?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "else",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "finally",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "except",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "try",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "0cc8e7e7-2f27-4b08-bfff-f10da08b991f",
+    "questionType": "multiple_choice",
+    "questionText": "What cost function is commonly used for classification problems?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Mean squared error",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Cross-entropy",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "Mean absolute error",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Logistic loss",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "b55725b6-561c-4027-802b-ba92fde1b06c",
+    "questionType": "multiple_choice",
+    "questionText": "What do we mean by \"statistically significant\"?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "the null hypothesis is highly unlikely to be true (less than 5% chance)",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "the observed value of the statistic is within one standard devation of the simulated mean",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "the null hypothesis is highly likely to be true (greater than 95% chance)",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "the difference between the null hypothesis mean and the measured mean are within one standard deviation",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "d1e086c4-d0ad-4c5e-93cc-c4af02ddca00",
+    "questionType": "multiple_choice",
+    "questionText": "What does \"K\" refer to in K-means clustering?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "The number of clusters",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "The number of data points",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "The number of features",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "The number of iterations",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "4e3c3b7c-4670-49cf-bc42-b6d298c8dbe7",
+    "questionType": "multiple_choice",
+    "questionText": "What does K stand for in kNN?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "K closest points",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "Kernel number",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "K means clusters",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "K-weighted predictions",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "76f19fee-8e3b-4634-af3b-8ad3c02fe9cc",
+    "questionType": "multiple_choice",
+    "questionText": "What does a digital image consist of?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Sentences",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Pages",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Pixels",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "Plots",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "a0015cda-3b08-4421-8ce7-9cc4c20a776d",
+    "questionType": "multiple_choice",
+    "questionText": "What does a pixel contain in an RGB image?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Intensity value",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Red, green and blue values",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "Hue and saturation",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Timestamp",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "49740b39-4ef7-4ba0-882f-9d28badbf2eb",
+    "questionType": "multiple_choice",
+    "questionText": "What does a recursive call in a function do?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Makes a call to itself",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "Stores temporary values",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Computes the final answer",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Raises an error",
+        "isCorrect": false
+      },
+      {
+        "optionId": "5",
+        "text": "Prints output",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "bfa1656c-ca4b-493d-800e-20d6467e5ada",
+    "questionType": "multiple_choice",
+    "questionText": "What does a recursive call return to the caller?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Raises an error",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Returns an answer",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "Prints output",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Calls other functions",
+        "isCorrect": false
+      },
+      {
+        "optionId": "5",
+        "text": "Iterates through a loop",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "7127491e-6b04-460d-b5eb-bd0d67ac5ff5",
+    "questionType": "multiple_choice",
+    "questionText": "What does image segmentation do?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Partitions an image into multiple segments",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "Detects edges in an image",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Thresholds an image",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Blurs an image",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "d31e6477-830d-4562-b31c-56ba83513392",
+    "questionType": "multiple_choice",
+    "questionText": "What does the \"append()\" method do when used with a list in Python?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Adds an element to the end of the list.",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "Removes the last element from the list.",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Sorts the list in ascending order.",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Converts the list into a tuple.",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "2221cfd6-9493-4986-924a-a8aef53d4c40",
+    "questionType": "multiple_choice",
+    "questionText": "What does the __init__() method do?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Initializes a new instance of a class",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "It defines class attributes",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "It starts a process",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Calls the parent constructor",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "f0a4f976-79ac-4933-8cc6-3e8dcf5d905c",
+    "questionType": "multiple_choice",
+    "questionText": "What exception is raised if you try to open a file that does not exist?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "SyntaxError",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "FileNotFoundError",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "FileNotFound",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "TypeError",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "da3c4ced-a06a-47d0-a3cc-0db94c6f6ff9",
+    "questionType": "multiple_choice",
+    "questionText": "What is an essential best practice when using color to denote data?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "never use shades of gray",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "don't have your colors jump in steps from one value to another",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "always use yellow and red for showing the temperature",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "show a colorbar",
+        "isCorrect": true
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "360a17fc-8348-434e-a81e-7af2bbd5f934",
+    "questionType": "multiple_choice",
+    "questionText": "What is another name for sequential search?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Sequential search",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Linear search",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "Binary search",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Interval search",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "5fd77baf-8552-4d1e-a4c9-6cb127b7504d",
+    "questionType": "multiple_choice",
+    "questionText": "What is another name for sequential search?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Sequential search",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Linear search",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "Binary search",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Interval search",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "8eb2239a-cc59-42c2-9258-9e4a3b6f2ce0",
+    "questionType": "multiple_choice",
+    "questionText": "What is computed at each step of the K-means algorithm?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Cluster variance",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Cluster centroids",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "Silhouette score",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Eigenvectors",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "27952ae3-c0b7-4edc-bc03-edabe0887614",
+    "questionType": "multiple_choice",
+    "questionText": "What is method overriding?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Changing a method's signature",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Changing the name of a class",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Providing a specific implementation in a subclass",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "Calling the object's parent",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "50b91cd2-01a6-4024-810f-a92472c03dc8",
+    "questionType": "multiple_choice",
+    "questionText": "What is one advantage of using a \"with\" statement over standard open()/close() when working with files in Python?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "The with statement takes less lines of code",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "The file will be closed automatically with a with statement",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "The with statement provides faster file reads",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "There are no advantages to using a with statement",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "156ee1dd-cc10-4ca4-8087-58383fffe990",
+    "questionType": "multiple_choice",
+    "questionText": "What is one limitation of kNN models?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Prediction can be slow with large reference sets",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "Training the model is computationally intensive",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "The algorithm tends to overfit the training data",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Feature selection is difficult",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "94ca4cb0-38bb-40f5-96d0-79a173f189f7",
+    "questionType": "multiple_choice",
+    "questionText": "What is the best way to handle an exception in Python?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Print a generic error message",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Use a bare except: statement to catch all exceptions",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Catch specific exception classes like FileNotFoundError",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "Pass the exception to the user",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "8cc998d5-fe97-454b-9ea8-d7780af5fe08",
+    "questionType": "multiple_choice",
+    "questionText": "What is the difference between a function and a method in Python?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "A function is global, a method is local",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "A method does not have arguments, a function does",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "A method is associated with a class, a function is standalone",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "A function returns a value, a method modifies state",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "754e8eac-c966-4774-89e6-c81700d275e7",
+    "questionType": "multiple_choice",
+    "questionText": "What is the goal of classification models?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "To compress input data",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "To predict a categorical target variable",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "To group input data into clusters",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "To reduce the dimensionality of input data",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "f0a12d20-15c9-45ea-94f3-69af1ade71dd",
+    "questionType": "multiple_choice",
+    "questionText": "What is the main difference between a class and an object in Python?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "A class is a blueprint, an object is an instance created from the class",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "An object is a blueprint, a class is an instance created from the object",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "There is no difference between a class and an object in Python",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "A class contains methods, an object contains attributes",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "efcf6e1d-8330-43af-84ec-42c93a670503",
+    "questionType": "multiple_choice",
+    "questionText": "What is the name of the function that maps neural network inputs to outputs?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Classifier",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Regressor",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Activation function",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "Cost function",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "f892a435-447b-4c86-b673-caf77b474dbf",
+    "questionType": "multiple_choice",
+    "questionText": "What is the purpose of a class constructor in Python?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "It creates a new class",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "It makes a class inherit from another class",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "It initializes new instances of a class",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "It registers an object with the Python interpreter",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "f91db7c2-cfb8-461c-92bb-ee6cba6c167f",
+    "questionType": "multiple_choice",
+    "questionText": "What is the purpose of edge detection?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Resize images",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Identify sharp discontinuities in an image",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "Convert image formats",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Denoise images",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "bc8451c0-7d4c-4281-9552-9dc2d751386b",
+    "questionType": "multiple_choice",
+    "questionText": "What is the purpose of image registration?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Aligning images taken at different times or from different sensors",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "Combining multiple images into a panorama",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Projecting 3D data onto 2D",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Building 3D models from 2D images",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "eda32301-f656-46db-84f8-cdea8c2028a3",
+    "questionType": "multiple_choice",
+    "questionText": "What is the purpose of the __str__() method in a Python class?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "It saves the state of an object",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "It returns a string that defines how an object is printed",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "After it is called, the object becomes a string",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "It initializes a new string object",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "62e0c16a-ff05-4537-ae31-b9899b48d536",
+    "questionType": "multiple_choice",
+    "questionText": "What is the purpose of the try and except statements in Python?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "To print errors to the user",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "To execute code and handle potential exceptions",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "To log exceptions to a file",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "To prevent syntax errors",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "dea3453b-bb9f-4e45-b0e4-1d8d09f7f8bf",
+    "questionType": "multiple_choice",
+    "questionText": "What is the time complexity (average time) of linear search?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "O(n^2)",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "O(log n)",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "O(n)",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "O(1)",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "b29885a3-1c59-465b-9281-9239f596260f",
+    "questionType": "multiple_choice",
+    "questionText": "What is the time complexity (average time) of linear search?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "O(n^2)",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "O(log n)",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "O(n)",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "O(1)",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "be64c26b-e574-44ba-b163-032cbfe43fe3",
+    "questionType": "multiple_choice",
+    "questionText": "What is the time complexity of accessing the first element of a linked list?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "O(1)",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "O(n)",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "O(log n)",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "O(n log n)",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "5ee1ef48-d30d-46c9-b4f1-44720c364449",
+    "questionType": "multiple_choice",
+    "questionText": "What technique splits the dataset into subsets to train and validate the performance?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Regularization",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Normalization",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Cross-validation",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "Backpropagation",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "ebf984bf-8bbc-4ba5-b1e3-5a274643a4dc",
+    "questionType": "multiple_choice",
+    "questionText": "What term refers to a neural network layer that connects the input and output layers?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Hidden layer",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "Output layer",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Input layer",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Dense layer",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "1691a689-68bf-47b7-8feb-c41554d9e1c4",
+    "questionType": "multiple_choice",
+    "questionText": "What term refers to a target or desired value for the neural network output?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Prediction",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Activation",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Gradient",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Label",
+        "isCorrect": true
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "0d9a834d-6db8-4c2e-bc5d-23fedc5e35c1",
+    "questionType": "multiple_choice",
+    "questionText": "What term refers to the target variable that we are trying to predict in a regression problem?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Dependent variable",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "Categorical variable",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Independent variable",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Input variable",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "0509ff62-e7d7-4ecf-b03b-7759c8e731d6",
+    "questionType": "multiple_choice",
+    "questionText": "What term refers to the vertical differences between the observed responses and the responses predicted by the regression line?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Errors",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Noise",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Residuals",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "Outliers",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "0995e7f7-3035-4ea4-b486-981c46f89b30",
+    "questionType": "multiple_choice",
+    "questionText": "What type of learning has labeled input data?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Unsupervised learning",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Supervised learning",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "Semi-supervised learning",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Self-supervised learning",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "c0334316-6370-4670-9d6e-13c634cf5835",
+    "questionType": "multiple_choice",
+    "questionText": "When a population is concentrated in one area or we are sampling a concentrated natural population such as fruit in an orchard or manufactured goods, which method is generally preferred",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Systematic sampling",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Convenience Sampling",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Simple Random Sampling",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "Cluster Sampling",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "8e994617-db68-42f3-b3fb-a013cd0738c1",
+    "questionType": "multiple_choice",
+    "questionText": "When looking at ratings on Amazon we can see the distribution of reviews. Some products are only reviewed by a few people, while others are reviewed by many people. According to the supplemental information in the readings and videos, to compare the products",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "we simply use the distributions we have because we don't have other information.",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "for each product we try to estimate the distribution for each product by estimating it from a family of distributions and the number of reviews.",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "we pick a threshold for the number of reviews and we throw away reviews with fewer than the threshold number of reviews.",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "we ignore the full score and 0-star reviews because they are not informative.",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "8a5e466d-5191-42ac-a857-d4fc2cea0c49",
+    "questionType": "multiple_choice",
+    "questionText": "When would be consider a two sided p-value?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "if the test statistic is a t-statistic",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "when our statistic is the median rather than the mean",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "if statistic is the absolute value of the difference between the mean and the null hypothesis",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "if we don't know if the observed value may be above or below the mean of the null hypothesis statistic",
+        "isCorrect": true
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "8f1fda10-a82e-4db2-b69e-bf3feaf650c4",
+    "questionType": "multiple_choice",
+    "questionText": "When would you more likely use a **while** loop rather than a for loop?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "When you are running some code 15 times",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "When you have a list of strings to process.",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "When you don't know how many times you will need to run the code but you have a condition that will stop the loop",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "When you think you need to use a continue statement.",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "66fc900a-33cf-4c51-9785-f7edb284bfa2",
+    "questionType": "multiple_choice",
+    "questionText": "Which are least likely to be potential reasons scientific results published in a top journal may not be reproducible?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "the scientists didn't check the results were statistically significant",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "not enough details in the published work to replicate the procedure",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "subtle errors were hiding in the experiment's design, execution, or analysis of the data",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "there may be an unknown factor like a condition that many of the subject conditions had (not a random sample)",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "10149ca2-b694-4573-bd52-4f9d4ffd2ed2",
+    "questionType": "multiple_choice",
+    "questionText": "Which attribute is designated a private attribute?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "self._x",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "private x",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "private(self.x)",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "self_private.x",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "d447cbf1-d9be-4fb3-8c99-409c913a76f4",
+    "questionType": "multiple_choice",
+    "questionText": "Which does *NOT* make sense:",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "a value has a type",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "a variable has a value",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "the identifier of a variable is a variable name",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "a value has a variable name",
+        "isCorrect": true
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "01a33867-b11c-4450-ba18-53c50ccc98bd",
+    "questionType": "multiple_choice",
+    "questionText": "Which is **not** a likely a contributing reason for the \"reproducibility crisis\" in science",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "researchers faking data for attention",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "researchers not specifying clearly their data analysis methodology",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "researchers misunderstanding the meaning of a p-value",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "published results fail to consider p-values",
+        "isCorrect": true
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "b1710459-3f0a-48c4-881e-f05f6e7cd457",
+    "questionType": "multiple_choice",
+    "questionText": "Which is a primary concern in \"probability sampling\"?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Modeling the random process from a probability distribution",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Choosing a small enough sample size for fast computation",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Avoiding under or over-representing sub-populations in the sample",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "Maximizing the margin of error",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "7826e9f6-a487-4c49-870f-f18decaa49d5",
+    "questionType": "multiple_choice",
+    "questionText": "Which of the following best describes the goal of clustering?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "To predict a categorical variable",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "To group similar data points together",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "To classify data points",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "To reduce dimensionality",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "e4f84776-6fc3-422d-aaed-fa928179f7bc",
+    "questionType": "multiple_choice",
+    "questionText": "Which of the following best describes the goal of regression analysis?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "To predict a categorical variable from a set of features",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "To classify data points into categories",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "To predict a quantitative response based on predictor variables",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "To identify clusters in data",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "36e32f8e-8308-463b-9dd7-c27e93d3b529",
+    "questionType": "multiple_choice",
+    "questionText": "Which of the following best describes the significance of Conway's game of life:",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "a simulation with simple rules can generate arbitrary complexity",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "a computer can be programmed to win, even something as challenging as Conway's game of life",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "quantum mechanics is incomplete",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "the universe cannot be a computer simulation",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "5631dc54-b325-4405-b128-501d6c91af37",
+    "questionType": "multiple_choice",
+    "questionText": "Which of the following best describes what a z-score represents?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "The number of standard deviations a data point is from the mean",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "The data value divided by the standard deviation",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "The percentile rank of a data point",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "The probability of observing that data point",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "f56d3797-640a-410f-abb3-c13304f02dfb",
+    "questionType": "multiple_choice",
+    "questionText": "Which of the following is **not** a measure of data spread:",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Range",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Standard Deviation",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "the mean",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "Interquartile range",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "867d1d16-4e05-4c0a-a9ff-703b0eb80ce9",
+    "questionType": "multiple_choice",
+    "questionText": "Which of the following is **not** a proper definition",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "A population is all the possible data points of possible interest",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "A sample is a subset of those data points",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "A parameter is a number describing a computed function on a whole population",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "A statistic is a computed function on the whole population such as the average",
+        "isCorrect": true
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "5508fcff-ae2c-4d6d-b228-4e1dd1c81c54",
+    "questionType": "multiple_choice",
+    "questionText": "Which of the following is a difference between a list and a tuple?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "tuples cannot hold string but lists can",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "elements of a tuple are separated by commas but elements of a list are separated by spaces",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "elements of a tuple cannot be changed but elements of a list can be changed",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "you can use \"len()\" on a list but not on a tuple",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "9e1ba141-f372-4d0f-ae53-55ce106591d5",
+    "questionType": "multiple_choice",
+    "questionText": "Which of the following is a valid way to access the last element of a list named my_list?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "my_list[0]",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "my_list[-1]",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "my_list[last]",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "my_list[len(my_list)]",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "5d6fecee-36d2-49b2-8815-faffd4432e78",
+    "questionType": "multiple_choice",
+    "questionText": "Which of the following is an advantage of encapsulation?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "It makes code easier to reuse",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "It allows data hiding",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "It enables the same method name to be used by different classes",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "It reduces coupling",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "734d04df-b440-461c-8807-3d7b76b68737",
+    "questionType": "multiple_choice",
+    "questionText": "Which of the following is an application of bootstrapping?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "To find the mean of a population",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "To resample a sample in order to estimate the uncertainty of a sample statistic",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "to find the p-value of two groups",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "to determine the median of a sample",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "20e3b8cd-d41e-4f42-9504-d3a614bcca46",
+    "questionType": "multiple_choice",
+    "questionText": "Which of the following is true about sampling error?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "You can eliminate sampling error by taking a truly random sample",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Sampling error depends on the ratio (proportion) of the sample size, to the population size",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Sampling error depends on the sample size regardless of how large the population is",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "We can accurately measure the extent of sampling error even without the population parameters",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "7c12c06f-8c1a-403b-9850-88892a2a8344",
+    "questionType": "multiple_choice",
+    "questionText": "Which of the following is true of sets?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Sets are ordered.",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Sets are mutable.",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Sets can contain duplicate values.",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Sets cannot be indexed",
+        "isCorrect": true
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "5bf9ba59-b862-4e31-9053-c7b9a67242cb",
+    "questionType": "multiple_choice",
+    "questionText": "Which of the following should we **not** expect to be a consequence of the \"law of large numbers\"?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "The more runs we do of a simulation, the closer we expect a statistic of that simulation (eg. number of heads for a sequence of coin flips) to match the theoretical value",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "The larger the number of unlikely events we see, in a sequence, such as rolling a 6 on 6-sided dice, the more likely the next roll will be less surprising",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "The bigger a sample we pick of a population, the more likely it will be representative of the larger population when attributes are measured",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "As we average over more runs or more data points, the variation in that average will tend to decrease",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "9ff18b86-e5cb-4c32-97a3-dc4103039aab",
+    "questionType": "multiple_choice",
+    "questionText": "Which of the following statements is true about merge sort?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "It is faster than quick sort for small input sizes",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "It uses divide and conquer approach",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "It is not a stable sort",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "It has a worst-case complexity of O(n)",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "79ecf2d0-9726-4cf5-af2f-ceace7056427",
+    "questionType": "multiple_choice",
+    "questionText": "Which of the following statements is true about merge sort?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "It is faster than quick sort for small input sizes",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "It uses divide and conquer approach",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "It is not a stable sort",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "It has a worst-case complexity of O(n)",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "75d2d5de-9402-4146-a805-6ea42a3f4fcd",
+    "questionType": "multiple_choice",
+    "questionText": "Which of the following sum of 2D arrays would give an error because of incompatible dimensions?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "np.ones((2,3)) + np.ones((3,2))",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "np.ones((2,3)) + np.ones((1,3))",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "np.ones((2,3)) + np.ones((2,3))",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "np.ones((2,3)) + 99",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "0c1dea7a-89b8-4177-9685-116eaa36d10d",
+    "questionType": "multiple_choice",
+    "questionText": "Which of these would be an example of the term \"P-hacking\"",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "a researcher faked the data on chocolate using a computer program to get a desired p-value for a reduction in heart attack",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "a researcher examined different many different colors and flavors of jelly bean to see if any of them had a p-value low enough to show they caused achne",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "the researchers did not have a control group",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "researchers excluded data and reported the p-value only based on how far they were from their conclusion",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "09f838c5-096f-49ef-b731-9c3170797fba",
+    "questionType": "multiple_choice",
+    "questionText": "Which percentile represents the median of a distribution?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "1st",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "25th",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "50th",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "75th",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "3daf7dc3-ed15-443f-a4b9-c23655e0caa2",
+    "questionType": "multiple_choice",
+    "questionText": "Which search algorithm works by dividing the search space in half repeatedly?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Binary search",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "Linear search",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Interval search",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Exponential search",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "ae7488fd-a4f3-4162-89f4-9299f7295b1a",
+    "questionType": "multiple_choice",
+    "questionText": "Which search algorithm works by dividing the search space in half repeatedly?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Binary search",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "Linear search",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Interval search",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "Exponential search",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "43636b27-28b9-47e7-a3e7-87b3856637f4",
+    "questionType": "multiple_choice",
+    "questionText": "Which statement correctly describes the overall process of selection sort?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Divide array into subarrays, sort subarrays recursively",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Insert each element into the correct position in a sorted subarray",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Select minimum from unsorted subarray, move to sorted position",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "Swap adjacent elements that are out of order",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "b85a54d9-aeb7-4bd7-8d16-992030667e45",
+    "questionType": "multiple_choice",
+    "questionText": "Which statement correctly describes the overall process of selection sort?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Divide array into subarrays, sort subarrays recursively",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Insert each element into the correct position in a sorted subarray",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Select minimum from unsorted subarray, move to sorted position",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "Swap adjacent elements that are out of order",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "48862506-ef16-4134-8979-5dc771e3a2ad",
+    "questionType": "multiple_choice",
+    "questionText": "Which type of learning does clustering fall under?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "Supervised learning",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "Semi-supervised learning",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "Unsupervised learning",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "Reinforcement learning",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "be439212-43e8-488f-8106-ce93500914d0",
+    "questionType": "multiple_choice",
+    "questionText": "Which way will work to read a text file where the columns are separated by tabs and the rows by \"\\n\"?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "data = pd.read_csv('http://bit.ly/chiporders')",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "data = pd.read_table('http://bit.ly/chiporders', sep='\\tab')",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "pd.read_table('http://bit.ly/chiporders', sep=',')",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "data = pd.read_table('http://bit.ly/chiporders')",
+        "isCorrect": true
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "5fe642d0-e216-438d-a4c0-77167d3ad0ef",
+    "questionType": "multiple_choice",
+    "questionText": "While we can often use computer simulations for calculations, we can sometimes bring our simulation to the \"real world\" in that by setting up a physical simulation we can do a difficult computation. What is an example of this we have seen in the supplemental material?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "computing e by stacking elephants on top of each other",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "randomly throwing darts and comparing how many darts are inside or outside a circle to compute pi.",
+        "isCorrect": true
+      },
+      {
+        "optionId": "3",
+        "text": "computing pi by weighting a box full of water",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "computing the golden ratio by measuring the rings on pine cones",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "5394ce00-196a-47a4-98bb-ff53c8cfdfe0",
+    "questionType": "multiple_choice",
+    "questionText": "Why are methods typically defined with self as the first parameter?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "It refers to the parent class",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "It refers to the name of the function itself",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "It allows access to the current instance calling the method",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "It is a placeholder parameter name",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "2743cb17-0dbf-4e4d-8271-94abaf3ac78e",
+    "questionType": "multiple_choice",
+    "questionText": "Why is \"equals\" not the \"equals\" of math?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "in python \"=\" is a comparison",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "because decimals are not exact",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "in python \"==\" is an assignment",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "python \"=\" is an assignment",
+        "isCorrect": true
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "20cdea63-fee3-442f-84b8-c28d38581f53",
+    "questionType": "multiple_choice",
+    "questionText": "With the bootstrap method, which of the following is **not** true",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "a bootstrap sample could pick the same data point over and over again",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "the advantage of the bootstrap sample is that it may be used to test the confidence interval of any statistic (such as the median)",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "a weakness of bootstrap is that the underlying probability distribution must be known",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "when working with the arithmetic mean, the confidence interval can be computed without bootstrap sampling",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "6820b4aa-e527-4a1c-871b-529274693e77",
+    "questionType": "multiple_choice",
+    "questionText": "animals_legs = {'dog': 4, 'octopus': 8, 'human': 2} Based on how for loops work (or don't work) which of list comprehensions will *not* work and gives an error?",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "[key for key in animals_legs]",
+        "isCorrect": false
+      },
+      {
+        "optionId": "2",
+        "text": "[value for value in animals_legs.values()]",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "[key, value for key, value in animals_legs]",
+        "isCorrect": true
+      },
+      {
+        "optionId": "4",
+        "text": "[key, value for key, value in animals_legs.items()]",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "1bde0c3c-e966-43b2-b672-1d6022fbc408",
+    "questionType": "multiple_choice",
+    "questionText": "if df is a data frame then the difference between df['sales'] and df[['sales']] is that",
+    "topic": "Uncategorized",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "df['sales'] is a Series and df[['sales']] is a DataFrame",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "df[['sales']] is a Series and df['sales'] is a DataFrame",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "df['sales'] gives the first row where the index matches \"sales\" and df[['sales']] gives all the rows where the index matches sales",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "df['sales'] throws an exception if 'sales' isn't a column while df[['sales']] produces a column of NaN (not a number)",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  },
+  {
+    "questionId": "52340d08-cdae-4d66-a1ef-8a87068fee07",
+    "questionType": "multiple_choice",
+    "questionText": "What is the output of the following code snippet?\r\nmy_list = [1, 2, 3, 4, 5]\r\nnew_list = [x * 2 for x in my_list if x % 2 == 0]\r\nprint(new_list)",
+    "topic": "list comp",
+    "options": [
+      {
+        "optionId": "1",
+        "text": "[2, 4, 6, 8, 10]",
+        "isCorrect": true
+      },
+      {
+        "optionId": "2",
+        "text": "[2, 4]",
+        "isCorrect": false
+      },
+      {
+        "optionId": "3",
+        "text": "[1, 2, 3, 4, 5]",
+        "isCorrect": false
+      },
+      {
+        "optionId": "4",
+        "text": "[1, 3, 5]",
+        "isCorrect": false
+      }
+    ],
+    "answer": null,
+    "explanation": "",
+    "courseMapping": {
+      "courseId": "ENGR_10200",
+      "week": null,
+      "block": null
+    },
+    "metadata": {
+      "difficulty": "medium",
+      "blooms": "understanding",
+      "keywords": []
+    }
+  }
+]
